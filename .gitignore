@@ -27,3 +27,5 @@ build/
 .venv/
 env/
 venv/
+
+data/
