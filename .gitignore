@@ -1,0 +1,29 @@
+# Airflow runtime files
+logs/
+airflow.db
+airflow.cfg
+webserver_config.py
+unittest.cfg
+
+# SQLite history (caso use SQLite localmente)
+*.sqlite
+*.sqlite3
+
+# PyCharm ou VSCode configs (opcional)
+.idea/
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Environment files
+.env
+.venv/
+env/
+venv/

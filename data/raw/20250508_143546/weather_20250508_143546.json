@@ -1,0 +1,6142 @@
+[
+    {
+        "coord": {
+            "lon": -56.3669,
+            "lat": -15.2002
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "céu limpo",
+                "icon": "01d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 33.31,
+            "feels_like": 35.25,
+            "temp_min": 33.31,
+            "temp_max": 33.31,
+            "pressure": 1009,
+            "humidity": 44,
+            "sea_level": 1009,
+            "grnd_level": 984
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.62,
+            "deg": 21,
+            "gust": 6.07
+        },
+        "clouds": {
+            "all": 2
+        },
+        "dt": 1746729348,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698257,
+            "sunset": 1746739577
+        },
+        "timezone": -14400,
+        "id": 3473198,
+        "name": "Acorizal",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -52.1618,
+            "lat": -14.0523
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "céu limpo",
+                "icon": "01d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.02,
+            "feels_like": 32.08,
+            "temp_min": 31.02,
+            "temp_max": 31.02,
+            "pressure": 1010,
+            "humidity": 47,
+            "sea_level": 1010,
+            "grnd_level": 969
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.48,
+            "deg": 60,
+            "gust": 3.68
+        },
+        "clouds": {
+            "all": 2
+        },
+        "dt": 1746729349,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697157,
+            "sunset": 1746738658
+        },
+        "timezone": -14400,
+        "id": 3466255,
+        "name": "Nova Xavantina",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -56.0835,
+            "lat": -9.8699
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 34.95,
+            "feels_like": 39.07,
+            "temp_min": 34.95,
+            "temp_max": 34.95,
+            "pressure": 1010,
+            "humidity": 46,
+            "sea_level": 1010,
+            "grnd_level": 978
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.57,
+            "deg": 160
+        },
+        "clouds": {
+            "all": 75
+        },
+        "dt": 1746729350,
+        "sys": {
+            "type": 1,
+            "id": 8308,
+            "country": "BR",
+            "sunrise": 1746697777,
+            "sunset": 1746739921
+        },
+        "timezone": -14400,
+        "id": 6316343,
+        "name": "Alta Floresta",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -53.2169,
+            "lat": -17.3157
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "céu limpo",
+                "icon": "01d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 28.93,
+            "feels_like": 29.23,
+            "temp_min": 28.93,
+            "temp_max": 28.93,
+            "pressure": 1012,
+            "humidity": 47,
+            "sea_level": 1012,
+            "grnd_level": 929
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.69,
+            "deg": 18,
+            "gust": 4.31
+        },
+        "clouds": {
+            "all": 7
+        },
+        "dt": 1746729351,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697669,
+            "sunset": 1746738653
+        },
+        "timezone": -14400,
+        "id": 3472473,
+        "name": "Alto Araguaia",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -51.3744,
+            "lat": -11.6724
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.49,
+            "feels_like": 34.61,
+            "temp_min": 31.49,
+            "temp_max": 31.49,
+            "pressure": 1010,
+            "humidity": 55,
+            "sea_level": 1010,
+            "grnd_level": 981
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.87,
+            "deg": 88,
+            "gust": 3.09
+        },
+        "clouds": {
+            "all": 62
+        },
+        "dt": 1746729352,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746696784,
+            "sunset": 1746738653
+        },
+        "timezone": -14400,
+        "id": 3479308,
+        "name": "Paind do Araguaia",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -53.5294,
+            "lat": -16.947
+        },
+        "weather": [
+            {
+                "id": 801,
+                "main": "Clouds",
+                "description": "algumas nuvens",
+                "icon": "02d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 28.72,
+            "feels_like": 29.3,
+            "temp_min": 28.72,
+            "temp_max": 28.72,
+            "pressure": 1012,
+            "humidity": 50,
+            "sea_level": 1012,
+            "grnd_level": 928
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.7,
+            "deg": 1,
+            "gust": 4.33
+        },
+        "clouds": {
+            "all": 20
+        },
+        "dt": 1746729353,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697714,
+            "sunset": 1746738758
+        },
+        "timezone": -14400,
+        "id": 3472448,
+        "name": "Alto Garças",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -56.6234,
+            "lat": -14.765
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "céu limpo",
+                "icon": "01d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.54,
+            "feels_like": 35.65,
+            "temp_min": 32.54,
+            "temp_max": 32.54,
+            "pressure": 1009,
+            "humidity": 51,
+            "sea_level": 1009,
+            "grnd_level": 974
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.08,
+            "deg": 8,
+            "gust": 5.63
+        },
+        "clouds": {
+            "all": 0
+        },
+        "dt": 1746729354,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698284,
+            "sunset": 1746739673
+        },
+        "timezone": -14400,
+        "id": 3450872,
+        "name": "Rosário Oeste",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -53.2832,
+            "lat": -17.8269
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "céu limpo",
+                "icon": "01d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 26.97,
+            "feels_like": 27.64,
+            "temp_min": 26.97,
+            "temp_max": 26.97,
+            "pressure": 1012,
+            "humidity": 54,
+            "sea_level": 1012,
+            "grnd_level": 924
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.36,
+            "deg": 1,
+            "gust": 4.29
+        },
+        "clouds": {
+            "all": 10
+        },
+        "dt": 1746729355,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697726,
+            "sunset": 1746738628
+        },
+        "timezone": -14400,
+        "id": 3449856,
+        "name": "Santa Rita do Araguaia",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -57.3949,
+            "lat": -9.5678
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.46,
+            "feels_like": 33.62,
+            "temp_min": 31.46,
+            "temp_max": 31.46,
+            "pressure": 1008,
+            "humidity": 51,
+            "sea_level": 1008,
+            "grnd_level": 979
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.27,
+            "deg": 66,
+            "gust": 3.72
+        },
+        "clouds": {
+            "all": 51
+        },
+        "dt": 1746729356,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698069,
+            "sunset": 1746740258
+        },
+        "timezone": -14400,
+        "id": 6323793,
+        "name": "Alta Floresta",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -51.8341,
+            "lat": -15.7291
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.74,
+            "feels_like": 35.77,
+            "temp_min": 32.74,
+            "temp_max": 32.74,
+            "pressure": 1010,
+            "humidity": 50,
+            "sea_level": 1010,
+            "grnd_level": 974
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.32,
+            "deg": 135,
+            "gust": 4.65
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1746729357,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697210,
+            "sunset": 1746738448
+        },
+        "timezone": -14400,
+        "id": 3471834,
+        "name": "Araguaiana",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -53.0318,
+            "lat": -16.857
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.7,
+            "feels_like": 31.69,
+            "temp_min": 31.7,
+            "temp_max": 31.7,
+            "pressure": 1011,
+            "humidity": 39,
+            "sea_level": 1011,
+            "grnd_level": 954
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.67,
+            "deg": 351,
+            "gust": 4.4
+        },
+        "clouds": {
+            "all": 58
+        },
+        "dt": 1746729358,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697588,
+            "sunset": 1746738645
+        },
+        "timezone": -14400,
+        "id": 3472448,
+        "name": "Alto Garças",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -58.3468,
+            "lat": -15.4711
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.3,
+            "feels_like": 33.85,
+            "temp_min": 30.3,
+            "temp_max": 30.3,
+            "pressure": 1009,
+            "humidity": 62,
+            "sea_level": 1009,
+            "grnd_level": 982
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.67,
+            "deg": 22,
+            "gust": 6.21
+        },
+        "clouds": {
+            "all": 64
+        },
+        "dt": 1746729359,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698753,
+            "sunset": 1746740031
+        },
+        "timezone": -14400,
+        "id": 3452786,
+        "name": "Porto Esperidião",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -56.8721,
+            "lat": -14.51
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "nuvens dispersas",
+                "icon": "03d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.04,
+            "feels_like": 33.3,
+            "temp_min": 31.04,
+            "temp_max": 31.04,
+            "pressure": 1009,
+            "humidity": 53,
+            "sea_level": 1009,
+            "grnd_level": 974
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.93,
+            "deg": 46,
+            "gust": 5.26
+        },
+        "clouds": {
+            "all": 34
+        },
+        "dt": 1746729360,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698324,
+            "sunset": 1746739753
+        },
+        "timezone": -14400,
+        "id": 3471551,
+        "name": "Arenápolis",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -59.444,
+            "lat": -10.1758
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 28.09,
+            "feels_like": 30.71,
+            "temp_min": 28.09,
+            "temp_max": 28.09,
+            "pressure": 1009,
+            "humidity": 69,
+            "sea_level": 1009,
+            "grnd_level": 981
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.61,
+            "deg": 59,
+            "gust": 1.16
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1746729362,
+        "sys": {
+            "sunrise": 1746698607,
+            "sunset": 1746740704
+        },
+        "timezone": -14400,
+        "id": 0,
+        "name": "",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -55.9668,
+            "lat": -16.1957
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "céu limpo",
+                "icon": "01d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 35.43,
+            "feels_like": 36.54,
+            "temp_min": 35.43,
+            "temp_max": 35.43,
+            "pressure": 1009,
+            "humidity": 35,
+            "sea_level": 1009,
+            "grnd_level": 993
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 4.47,
+            "deg": 19,
+            "gust": 5.15
+        },
+        "clouds": {
+            "all": 6
+        },
+        "dt": 1746729363,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698240,
+            "sunset": 1746739402
+        },
+        "timezone": -14400,
+        "id": 3470871,
+        "name": "Barão de Melgaço",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -57.1854,
+            "lat": -15.0684
+        },
+        "weather": [
+            {
+                "id": 801,
+                "main": "Clouds",
+                "description": "algumas nuvens",
+                "icon": "02d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 33.09,
+            "feels_like": 35.63,
+            "temp_min": 33.09,
+            "temp_max": 33.09,
+            "pressure": 1009,
+            "humidity": 47,
+            "sea_level": 1009,
+            "grnd_level": 989
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.13,
+            "deg": 17,
+            "gust": 6.13
+        },
+        "clouds": {
+            "all": 15
+        },
+        "dt": 1746729364,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698443,
+            "sunset": 1746739784
+        },
+        "timezone": -14400,
+        "id": 3470718,
+        "name": "Barra do Bugres",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -52.2615,
+            "lat": -15.8916
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 34.27,
+            "feels_like": 37.65,
+            "temp_min": 34.27,
+            "temp_max": 34.27,
+            "pressure": 1011,
+            "humidity": 46,
+            "sea_level": 1011,
+            "grnd_level": 967
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.06,
+            "deg": 110
+        },
+        "clouds": {
+            "all": 75
+        },
+        "dt": 1746729365,
+        "sys": {
+            "type": 1,
+            "id": 8325,
+            "country": "BR",
+            "sunrise": 1746697326,
+            "sunset": 1746738538
+        },
+        "timezone": -14400,
+        "id": 3470709,
+        "name": "Barra do Garças",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -51.5074,
+            "lat": -12.1726
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.02,
+            "feels_like": 32.4,
+            "temp_min": 29.02,
+            "temp_max": 29.02,
+            "pressure": 1010,
+            "humidity": 68,
+            "sea_level": 1010,
+            "grnd_level": 975
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.3,
+            "deg": 217,
+            "gust": 0.88
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1746729366,
+        "sys": {
+            "sunrise": 1746696855,
+            "sunset": 1746738647
+        },
+        "timezone": -14400,
+        "id": 0,
+        "name": "",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -58.0043,
+            "lat": -12.1219
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.64,
+            "feels_like": 33.71,
+            "temp_min": 31.64,
+            "temp_max": 31.64,
+            "pressure": 1009,
+            "humidity": 50,
+            "sea_level": 1009,
+            "grnd_level": 976
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.52,
+            "deg": 353,
+            "gust": 3.62
+        },
+        "clouds": {
+            "all": 53
+        },
+        "dt": 1746729367,
+        "sys": {
+            "sunrise": 1746698410,
+            "sunset": 1746740210
+        },
+        "timezone": -14400,
+        "id": 0,
+        "name": "",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -57.688,
+            "lat": -16.0644
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.29,
+            "feels_like": 33.72,
+            "temp_min": 32.29,
+            "temp_max": 32.29,
+            "pressure": 1008,
+            "humidity": 45,
+            "sea_level": 1008,
+            "grnd_level": 987
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.01,
+            "deg": 22,
+            "gust": 6.9
+        },
+        "clouds": {
+            "all": 98
+        },
+        "dt": 1746729368,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698642,
+            "sunset": 1746739826
+        },
+        "timezone": -14400,
+        "id": 3468551,
+        "name": "Cáceres",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -52.7971,
+            "lat": -14.5404
+        },
+        "weather": [
+            {
+                "id": 801,
+                "main": "Clouds",
+                "description": "algumas nuvens",
+                "icon": "02d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.83,
+            "feels_like": 31.97,
+            "temp_min": 30.83,
+            "temp_max": 30.83,
+            "pressure": 1010,
+            "humidity": 48,
+            "sea_level": 1010,
+            "grnd_level": 961
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.09,
+            "deg": 40,
+            "gust": 3.62
+        },
+        "clouds": {
+            "all": 15
+        },
+        "dt": 1746729369,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697348,
+            "sunset": 1746738773
+        },
+        "timezone": -14400,
+        "id": 3466255,
+        "name": "Nova Xavantina",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -57.8907,
+            "lat": -13.6587
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "nuvens dispersas",
+                "icon": "03d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.55,
+            "feels_like": 31.15,
+            "temp_min": 29.55,
+            "temp_max": 29.55,
+            "pressure": 1010,
+            "humidity": 55,
+            "sea_level": 1010,
+            "grnd_level": 950
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.77,
+            "deg": 25,
+            "gust": 5.29
+        },
+        "clouds": {
+            "all": 40
+        },
+        "dt": 1746729370,
+        "sys": {
+            "sunrise": 1746698502,
+            "sunset": 1746740064
+        },
+        "timezone": -14400,
+        "id": 6255150,
+        "name": "South America",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -55.1591,
+            "lat": -15.5431
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "céu limpo",
+                "icon": "01d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 27.9,
+            "feels_like": 29.52,
+            "temp_min": 27.9,
+            "temp_max": 27.9,
+            "pressure": 1011,
+            "humidity": 62,
+            "sea_level": 1011,
+            "grnd_level": 934
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.24,
+            "deg": 20,
+            "gust": 5.82
+        },
+        "clouds": {
+            "all": 9
+        },
+        "dt": 1746729371,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697994,
+            "sunset": 1746739260
+        },
+        "timezone": -14400,
+        "id": 3460355,
+        "name": "Jaciara",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -59.2645,
+            "lat": -13.7224
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 27.52,
+            "feels_like": 29.45,
+            "temp_min": 27.52,
+            "temp_max": 27.52,
+            "pressure": 1010,
+            "humidity": 67,
+            "sea_level": 1010,
+            "grnd_level": 945
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.41,
+            "deg": 360,
+            "gust": 5.04
+        },
+        "clouds": {
+            "all": 53
+        },
+        "dt": 1746729372,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698837,
+            "sunset": 1746740388
+        },
+        "timezone": -14400,
+        "id": 3474501,
+        "name": "Comodoro",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -51.8302,
+            "lat": -11.0516
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 28.76,
+            "feels_like": 32.38,
+            "temp_min": 28.76,
+            "temp_max": 28.76,
+            "pressure": 1010,
+            "humidity": 71,
+            "sea_level": 1010,
+            "grnd_level": 984
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.08,
+            "deg": 93,
+            "gust": 1.88
+        },
+        "clouds": {
+            "all": 85
+        },
+        "dt": 1746729373,
+        "sys": {
+            "sunrise": 1746696846,
+            "sunset": 1746738810
+        },
+        "timezone": -14400,
+        "id": 0,
+        "name": "",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -52.2691,
+            "lat": -13.5565
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "nuvens dispersas",
+                "icon": "03d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.58,
+            "feels_like": 32.5,
+            "temp_min": 30.58,
+            "temp_max": 30.58,
+            "pressure": 1010,
+            "humidity": 53,
+            "sea_level": 1010,
+            "grnd_level": 967
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.49,
+            "deg": 54,
+            "gust": 3.49
+        },
+        "clouds": {
+            "all": 31
+        },
+        "dt": 1746729374,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697144,
+            "sunset": 1746738723
+        },
+        "timezone": -14400,
+        "id": 3466255,
+        "name": "Nova Xavantina",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -55.82,
+            "lat": -9.9691
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 27.71,
+            "feels_like": 29.88,
+            "temp_min": 27.71,
+            "temp_max": 27.71,
+            "pressure": 1009,
+            "humidity": 68,
+            "sea_level": 1009,
+            "grnd_level": 977
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.02,
+            "deg": 194,
+            "gust": 1.08
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1746729375,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697721,
+            "sunset": 1746739850
+        },
+        "timezone": -14400,
+        "id": 6316343,
+        "name": "Alta Floresta",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -58.6089,
+            "lat": -11.1392
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 26.94,
+            "feels_like": 30.07,
+            "temp_min": 26.94,
+            "temp_max": 26.94,
+            "pressure": 1009,
+            "humidity": 85,
+            "sea_level": 1009,
+            "grnd_level": 973
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.37,
+            "deg": 234,
+            "gust": 2.69
+        },
+        "clouds": {
+            "all": 98
+        },
+        "dt": 1746729376,
+        "sys": {
+            "sunrise": 1746698480,
+            "sunset": 1746740430
+        },
+        "timezone": -14400,
+        "id": 0,
+        "name": "",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -55.7499,
+            "lat": -15.4643
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "céu limpo",
+                "icon": "01d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.58,
+            "feels_like": 30.04,
+            "temp_min": 29.58,
+            "temp_max": 29.58,
+            "pressure": 1010,
+            "humidity": 47,
+            "sea_level": 1010,
+            "grnd_level": 961
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.71,
+            "deg": 38,
+            "gust": 5.41
+        },
+        "clouds": {
+            "all": 5
+        },
+        "dt": 1746729377,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698129,
+            "sunset": 1746739408
+        },
+        "timezone": -14400,
+        "id": 3466307,
+        "name": "Chapada dos Guimarães",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -54.8763,
+            "lat": -11.5057
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 27.16,
+            "feels_like": 28.78,
+            "temp_min": 27.16,
+            "temp_max": 27.16,
+            "pressure": 1009,
+            "humidity": 66,
+            "sea_level": 1009,
+            "grnd_level": 972
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.25,
+            "deg": 61,
+            "gust": 0.26
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1746729378,
+        "sys": {
+            "sunrise": 1746697612,
+            "sunset": 1746739507
+        },
+        "timezone": -14400,
+        "id": 0,
+        "name": "",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -51.0002,
+            "lat": -14.3903
+        },
+        "weather": [
+            {
+                "id": 801,
+                "main": "Clouds",
+                "description": "algumas nuvens",
+                "icon": "02d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 35.29,
+            "feels_like": 34.67,
+            "temp_min": 35.29,
+            "temp_max": 35.29,
+            "pressure": 1009,
+            "humidity": 28,
+            "sea_level": 1009,
+            "grnd_level": 981
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.3,
+            "deg": 68,
+            "gust": 2.76
+        },
+        "clouds": {
+            "all": 12
+        },
+        "dt": 1746729379,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746696905,
+            "sunset": 1746738353
+        },
+        "timezone": -14400,
+        "id": 3471394,
+        "name": "Aruanã",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -55.454,
+            "lat": -10.8095
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "nuvens dispersas",
+                "icon": "03d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.23,
+            "feels_like": 34.15,
+            "temp_min": 30.23,
+            "temp_max": 30.23,
+            "pressure": 1009,
+            "humidity": 64,
+            "sea_level": 1009,
+            "grnd_level": 973
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.32,
+            "deg": 358,
+            "gust": 2.2
+        },
+        "clouds": {
+            "all": 25
+        },
+        "dt": 1746729380,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697698,
+            "sunset": 1746739698
+        },
+        "timezone": -14400,
+        "id": 3469034,
+        "name": "Brazil",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -59.2197,
+            "lat": -9.4561
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.11,
+            "feels_like": 33.16,
+            "temp_min": 29.11,
+            "temp_max": 29.11,
+            "pressure": 1008,
+            "humidity": 71,
+            "sea_level": 1008,
+            "grnd_level": 989
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.73,
+            "deg": 130,
+            "gust": 0.47
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1746729381,
+        "sys": {
+            "sunrise": 1746698499,
+            "sunset": 1746740705
+        },
+        "timezone": -14400,
+        "id": 0,
+        "name": "",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -59.7869,
+            "lat": -13.6581
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 27.33,
+            "feels_like": 29.33,
+            "temp_min": 27.33,
+            "temp_max": 27.33,
+            "pressure": 1010,
+            "humidity": 69,
+            "sea_level": 1010,
+            "grnd_level": 940
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.9,
+            "deg": 39,
+            "gust": 5.69
+        },
+        "clouds": {
+            "all": 52
+        },
+        "dt": 1746729382,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698957,
+            "sunset": 1746740519
+        },
+        "timezone": -14400,
+        "id": 3474501,
+        "name": "Comodoro",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -51.5699,
+            "lat": -10.6437
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 25.92,
+            "feels_like": 26.76,
+            "temp_min": 25.92,
+            "temp_max": 25.92,
+            "pressure": 1010,
+            "humidity": 84,
+            "sea_level": 1010,
+            "grnd_level": 983
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.03,
+            "deg": 327,
+            "gust": 0.97
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1746729383,
+        "sys": {
+            "sunrise": 1746696753,
+            "sunset": 1746738779
+        },
+        "timezone": -14400,
+        "id": 0,
+        "name": "",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -59.5444,
+            "lat": -14.5381
+        },
+        "weather": [
+            {
+                "id": 801,
+                "main": "Clouds",
+                "description": "algumas nuvens",
+                "icon": "02d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.78,
+            "feels_like": 34.15,
+            "temp_min": 30.78,
+            "temp_max": 30.78,
+            "pressure": 1009,
+            "humidity": 59,
+            "sea_level": 1009,
+            "grnd_level": 966
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.29,
+            "deg": 29,
+            "gust": 4.67
+        },
+        "clouds": {
+            "all": 19
+        },
+        "dt": 1746729384,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698967,
+            "sunset": 1746740392
+        },
+        "timezone": -14400,
+        "id": 3453060,
+        "name": "Pontes e Lacerda",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -58.5659,
+            "lat": -9.9034
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 27.6,
+            "feels_like": 30.14,
+            "temp_min": 27.6,
+            "temp_max": 27.6,
+            "pressure": 1009,
+            "humidity": 72,
+            "sea_level": 1009,
+            "grnd_level": 979
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.64,
+            "deg": 124,
+            "gust": 0.5
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1746729386,
+        "sys": {
+            "sunrise": 1746698376,
+            "sunset": 1746740514
+        },
+        "timezone": -14400,
+        "id": 0,
+        "name": "",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -56.0991,
+            "lat": -15.5987
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 34.01,
+            "feels_like": 38.08,
+            "temp_min": 34.01,
+            "temp_max": 34.01,
+            "pressure": 1010,
+            "humidity": 49,
+            "sea_level": 1010,
+            "grnd_level": 988
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 5.14,
+            "deg": 320
+        },
+        "clouds": {
+            "all": 75
+        },
+        "dt": 1746729071,
+        "sys": {
+            "type": 1,
+            "id": 8352,
+            "country": "BR",
+            "sunrise": 1746698224,
+            "sunset": 1746739482
+        },
+        "timezone": -14400,
+        "id": 3465038,
+        "name": "Cuiabá",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -57.9189,
+            "lat": -15.6109
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.83,
+            "feels_like": 33.95,
+            "temp_min": 32.83,
+            "temp_max": 32.83,
+            "pressure": 1008,
+            "humidity": 42,
+            "sea_level": 1008,
+            "grnd_level": 985
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 4.08,
+            "deg": 346,
+            "gust": 6.6
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1746729072,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698662,
+            "sunset": 1746739917
+        },
+        "timezone": -14400,
+        "id": 3468551,
+        "name": "Cáceres",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -57.0483,
+            "lat": -14.7292
+        },
+        "weather": [
+            {
+                "id": 801,
+                "main": "Clouds",
+                "description": "algumas nuvens",
+                "icon": "02d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.23,
+            "feels_like": 35.57,
+            "temp_min": 32.23,
+            "temp_max": 32.23,
+            "pressure": 1009,
+            "humidity": 53,
+            "sea_level": 1009,
+            "grnd_level": 983
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.72,
+            "deg": 44,
+            "gust": 5.31
+        },
+        "clouds": {
+            "all": 17
+        },
+        "dt": 1746729073,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698383,
+            "sunset": 1746739778
+        },
+        "timezone": -14400,
+        "id": 3456137,
+        "name": "Nova Olímpia",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -56.4364,
+            "lat": -14.4036
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "céu limpo",
+                "icon": "01d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.24,
+            "feels_like": 33.44,
+            "temp_min": 31.24,
+            "temp_max": 31.24,
+            "pressure": 1010,
+            "humidity": 52,
+            "sea_level": 1010,
+            "grnd_level": 965
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.44,
+            "deg": 10,
+            "gust": 5.67
+        },
+        "clouds": {
+            "all": 8
+        },
+        "dt": 1746729074,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698211,
+            "sunset": 1746739657
+        },
+        "timezone": -14400,
+        "id": 3464724,
+        "name": "Diamantino",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -54.9223,
+            "lat": -15.8099
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "céu limpo",
+                "icon": "01d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.83,
+            "feels_like": 33.17,
+            "temp_min": 31.83,
+            "temp_max": 31.83,
+            "pressure": 1010,
+            "humidity": 46,
+            "sea_level": 1010,
+            "grnd_level": 966
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.86,
+            "deg": 28,
+            "gust": 4.97
+        },
+        "clouds": {
+            "all": 9
+        },
+        "dt": 1746729075,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697958,
+            "sunset": 1746739183
+        },
+        "timezone": -14400,
+        "id": 3460355,
+        "name": "Jaciara",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -54.939,
+            "lat": -12.3802
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 27.2,
+            "feels_like": 28.58,
+            "temp_min": 27.2,
+            "temp_max": 27.2,
+            "pressure": 1010,
+            "humidity": 63,
+            "sea_level": 1010,
+            "grnd_level": 968
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.71,
+            "deg": 28,
+            "gust": 0.71
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1746729076,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697694,
+            "sunset": 1746739454
+        },
+        "timezone": -14400,
+        "id": 3457419,
+        "name": "Mato Grosso",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -58.7391,
+            "lat": -15.4439
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 28.47,
+            "feels_like": 31.3,
+            "temp_min": 28.47,
+            "temp_max": 28.47,
+            "pressure": 1009,
+            "humidity": 68,
+            "sea_level": 1009,
+            "grnd_level": 977
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.91,
+            "deg": 13,
+            "gust": 4.49
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1746729077,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698845,
+            "sunset": 1746740127
+        },
+        "timezone": -14400,
+        "id": 3452786,
+        "name": "Porto Esperidião",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -53.2544,
+            "lat": -13.1814
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 27.06,
+            "feels_like": 28.46,
+            "temp_min": 27.06,
+            "temp_max": 27.06,
+            "pressure": 1010,
+            "humidity": 64,
+            "sea_level": 1010,
+            "grnd_level": 967
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.25,
+            "deg": 104,
+            "gust": 4.51
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1746729078,
+        "sys": {
+            "sunrise": 1746697352,
+            "sunset": 1746738988
+        },
+        "timezone": -14400,
+        "id": 0,
+        "name": "",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -52.7606,
+            "lat": -15.7071
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 33.68,
+            "feels_like": 35.65,
+            "temp_min": 33.68,
+            "temp_max": 33.68,
+            "pressure": 1011,
+            "humidity": 43,
+            "sea_level": 1011,
+            "grnd_level": 965
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.56,
+            "deg": 58,
+            "gust": 3.52
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1746729079,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697431,
+            "sunset": 1746738672
+        },
+        "timezone": -14400,
+        "id": 3470709,
+        "name": "Barra do Garças",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -58.3108,
+            "lat": -15.768
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "nuvens dispersas",
+                "icon": "03d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 33.52,
+            "feels_like": 35.11,
+            "temp_min": 33.52,
+            "temp_max": 33.52,
+            "pressure": 1008,
+            "humidity": 42,
+            "sea_level": 1008,
+            "grnd_level": 986
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 5.06,
+            "deg": 4,
+            "gust": 6.58
+        },
+        "clouds": {
+            "all": 38
+        },
+        "dt": 1746729080,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698768,
+            "sunset": 1746739999
+        },
+        "timezone": -14400,
+        "id": 3452786,
+        "name": "Porto Esperidião",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -54.9098,
+            "lat": -9.9518
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "nuvens dispersas",
+                "icon": "03d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.38,
+            "feels_like": 34,
+            "temp_min": 29.38,
+            "temp_max": 29.38,
+            "pressure": 1009,
+            "humidity": 72,
+            "sea_level": 1009,
+            "grnd_level": 975
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.59,
+            "deg": 104,
+            "gust": 0.91
+        },
+        "clouds": {
+            "all": 27
+        },
+        "dt": 1746728994,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697502,
+            "sunset": 1746739633
+        },
+        "timezone": -14400,
+        "id": 3469034,
+        "name": "Brazil",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -53.7595,
+            "lat": -16.3457
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "nuvens dispersas",
+                "icon": "03d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.97,
+            "feels_like": 31.33,
+            "temp_min": 30.97,
+            "temp_max": 30.97,
+            "pressure": 1011,
+            "humidity": 43,
+            "sea_level": 1011,
+            "grnd_level": 954
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.34,
+            "deg": 1,
+            "gust": 4.4
+        },
+        "clouds": {
+            "all": 48
+        },
+        "dt": 1746729082,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697722,
+            "sunset": 1746738861
+        },
+        "timezone": -14400,
+        "id": 3461733,
+        "name": "Guiratinga",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -58.5766,
+            "lat": -15.4941
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.04,
+            "feels_like": 31.92,
+            "temp_min": 29.04,
+            "temp_max": 29.04,
+            "pressure": 1009,
+            "humidity": 65,
+            "sea_level": 1009,
+            "grnd_level": 981
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.98,
+            "deg": 29,
+            "gust": 5.3
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1746729084,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698810,
+            "sunset": 1746740084
+        },
+        "timezone": -14400,
+        "id": 3452786,
+        "name": "Porto Esperidião",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -56.1531,
+            "lat": -12.2408
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.89,
+            "feels_like": 33.68,
+            "temp_min": 30.89,
+            "temp_max": 30.89,
+            "pressure": 1010,
+            "humidity": 56,
+            "sea_level": 1010,
+            "grnd_level": 967
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.55,
+            "deg": 87,
+            "gust": 3.66
+        },
+        "clouds": {
+            "all": 52
+        },
+        "dt": 1746729085,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697975,
+            "sunset": 1746739756
+        },
+        "timezone": -14400,
+        "id": 3457419,
+        "name": "Mato Grosso",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -56.6418,
+            "lat": -12.2323
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "nuvens dispersas",
+                "icon": "03d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.59,
+            "feels_like": 32.59,
+            "temp_min": 31.59,
+            "temp_max": 31.59,
+            "pressure": 1009,
+            "humidity": 45,
+            "sea_level": 1009,
+            "grnd_level": 972
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.81,
+            "deg": 78,
+            "gust": 3.68
+        },
+        "clouds": {
+            "all": 36
+        },
+        "dt": 1746729086,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698092,
+            "sunset": 1746739874
+        },
+        "timezone": -14400,
+        "id": 3457419,
+        "name": "Mato Grosso",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -55.2467,
+            "lat": -11.0077
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "nuvens dispersas",
+                "icon": "03d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.91,
+            "feels_like": 32.66,
+            "temp_min": 30.91,
+            "temp_max": 30.91,
+            "pressure": 1010,
+            "humidity": 51,
+            "sea_level": 1010,
+            "grnd_level": 967
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.44,
+            "deg": 23,
+            "gust": 3.29
+        },
+        "clouds": {
+            "all": 47
+        },
+        "dt": 1746728886,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697663,
+            "sunset": 1746739634
+        },
+        "timezone": -14400,
+        "id": 3469034,
+        "name": "Brazil",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -54.1447,
+            "lat": -17.2033
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.11,
+            "feels_like": 31.21,
+            "temp_min": 30.11,
+            "temp_max": 30.11,
+            "pressure": 1011,
+            "humidity": 50,
+            "sea_level": 1011,
+            "grnd_level": 944
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.71,
+            "deg": 9,
+            "gust": 4.9
+        },
+        "clouds": {
+            "all": 61
+        },
+        "dt": 1746729403,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697883,
+            "sunset": 1746738885
+        },
+        "timezone": -14400,
+        "id": 3472448,
+        "name": "Alto Garças",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -54.9762,
+            "lat": -15.952
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "céu limpo",
+                "icon": "01d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.81,
+            "feels_like": 33.35,
+            "temp_min": 31.81,
+            "temp_max": 31.81,
+            "pressure": 1010,
+            "humidity": 47,
+            "sea_level": 1010,
+            "grnd_level": 969
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.4,
+            "deg": 28,
+            "gust": 4.96
+        },
+        "clouds": {
+            "all": 7
+        },
+        "dt": 1746729404,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697982,
+            "sunset": 1746739184
+        },
+        "timezone": -14400,
+        "id": 3460355,
+        "name": "Jaciara",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -56.4903,
+            "lat": -15.237
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "céu limpo",
+                "icon": "01d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.93,
+            "feels_like": 34.82,
+            "temp_min": 32.93,
+            "temp_max": 32.93,
+            "pressure": 1009,
+            "humidity": 45,
+            "sea_level": 1009,
+            "grnd_level": 984
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.51,
+            "deg": 19,
+            "gust": 6.03
+        },
+        "clouds": {
+            "all": 5
+        },
+        "dt": 1746729405,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698289,
+            "sunset": 1746739604
+        },
+        "timezone": -14400,
+        "id": 3473198,
+        "name": "Acorizal",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -58.8683,
+            "lat": -15.3408
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 27.62,
+            "feels_like": 30.06,
+            "temp_min": 27.62,
+            "temp_max": 27.62,
+            "pressure": 1009,
+            "humidity": 71,
+            "sea_level": 1009,
+            "grnd_level": 969
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.07,
+            "deg": 4,
+            "gust": 5.37
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1746729406,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698868,
+            "sunset": 1746740166
+        },
+        "timezone": -14400,
+        "id": 3453060,
+        "name": "Pontes e Lacerda",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -57.508,
+            "lat": -11.2536
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "nuvens dispersas",
+                "icon": "03d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.75,
+            "feels_like": 34.44,
+            "temp_min": 29.75,
+            "temp_max": 29.75,
+            "pressure": 1009,
+            "humidity": 70,
+            "sea_level": 1009,
+            "grnd_level": 977
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.32,
+            "deg": 165,
+            "gust": 3.04
+        },
+        "clouds": {
+            "all": 42
+        },
+        "dt": 1746729407,
+        "sys": {
+            "sunrise": 1746698224,
+            "sunset": 1746740157
+        },
+        "timezone": -14400,
+        "id": 0,
+        "name": "",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -58.757,
+            "lat": -11.4231
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.91,
+            "feels_like": 33.06,
+            "temp_min": 29.91,
+            "temp_max": 29.91,
+            "pressure": 1009,
+            "humidity": 62,
+            "sea_level": 1009,
+            "grnd_level": 970
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.83,
+            "deg": 47,
+            "gust": 2.05
+        },
+        "clouds": {
+            "all": 79
+        },
+        "dt": 1746729408,
+        "sys": {
+            "sunrise": 1746698537,
+            "sunset": 1746740444
+        },
+        "timezone": -14400,
+        "id": 0,
+        "name": "",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -58.4969,
+            "lat": -10.3283
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 27.9,
+            "feels_like": 30.1,
+            "temp_min": 27.9,
+            "temp_max": 27.9,
+            "pressure": 1009,
+            "humidity": 67,
+            "sea_level": 1009,
+            "grnd_level": 981
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.17,
+            "deg": 13,
+            "gust": 1.18
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1746729409,
+        "sys": {
+            "sunrise": 1746698391,
+            "sunset": 1746740465
+        },
+        "timezone": -14400,
+        "id": 0,
+        "name": "",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -54.8894,
+            "lat": -16.0518
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "céu limpo",
+                "icon": "01d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.69,
+            "feels_like": 34.17,
+            "temp_min": 32.69,
+            "temp_max": 32.69,
+            "pressure": 1010,
+            "humidity": 44,
+            "sea_level": 1010,
+            "grnd_level": 975
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.85,
+            "deg": 29,
+            "gust": 5.21
+        },
+        "clouds": {
+            "all": 7
+        },
+        "dt": 1746729410,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697969,
+            "sunset": 1746739155
+        },
+        "timezone": -14400,
+        "id": 3460355,
+        "name": "Jaciara",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -58.0046,
+            "lat": -15.3188
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "nuvens dispersas",
+                "icon": "03d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 33.16,
+            "feels_like": 35.76,
+            "temp_min": 33.16,
+            "temp_max": 33.16,
+            "pressure": 1009,
+            "humidity": 47,
+            "sea_level": 1009,
+            "grnd_level": 982
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 4.23,
+            "deg": 352,
+            "gust": 6.23
+        },
+        "clouds": {
+            "all": 25
+        },
+        "dt": 1746729411,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698659,
+            "sunset": 1746739961
+        },
+        "timezone": -14400,
+        "id": 3452786,
+        "name": "Porto Esperidião",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -55.9197,
+            "lat": -13.0665
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "nuvens dispersas",
+                "icon": "03d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.28,
+            "feels_like": 32.56,
+            "temp_min": 30.28,
+            "temp_max": 30.28,
+            "pressure": 1011,
+            "humidity": 56,
+            "sea_level": 1011,
+            "grnd_level": 965
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.4,
+            "deg": 5,
+            "gust": 4.41
+        },
+        "clouds": {
+            "all": 27
+        },
+        "dt": 1746728902,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697983,
+            "sunset": 1746739637
+        },
+        "timezone": -14400,
+        "id": 3457419,
+        "name": "Mato Grosso",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -50.668,
+            "lat": -11.2234
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "nuvens dispersas",
+                "icon": "03d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.53,
+            "feels_like": 33.9,
+            "temp_min": 32.53,
+            "temp_max": 32.53,
+            "pressure": 1009,
+            "humidity": 44,
+            "sea_level": 1009,
+            "grnd_level": 988
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.17,
+            "deg": 109,
+            "gust": 3.97
+        },
+        "clouds": {
+            "all": 33
+        },
+        "dt": 1746729413,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746696580,
+            "sunset": 1746738518
+        },
+        "timezone": -14400,
+        "id": 3479308,
+        "name": "Paind do Araguaia",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -54.5202,
+            "lat": -11.0794
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 27.08,
+            "feels_like": 28.91,
+            "temp_min": 27.08,
+            "temp_max": 27.08,
+            "pressure": 1009,
+            "humidity": 69,
+            "sea_level": 1009,
+            "grnd_level": 971
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.69,
+            "deg": 65,
+            "gust": 0.68
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1746729415,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697494,
+            "sunset": 1746739454
+        },
+        "timezone": -14400,
+        "id": 3469034,
+        "name": "Brazil",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -54.9346,
+            "lat": -10.1683
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 28.53,
+            "feels_like": 32.22,
+            "temp_min": 28.53,
+            "temp_max": 28.53,
+            "pressure": 1009,
+            "humidity": 73,
+            "sea_level": 1009,
+            "grnd_level": 978
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.23,
+            "deg": 290,
+            "gust": 0.64
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1746729416,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697524,
+            "sunset": 1746739623
+        },
+        "timezone": -14400,
+        "id": 3469034,
+        "name": "Brazil",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -58.0951,
+            "lat": -15.6759
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.23,
+            "feels_like": 33.84,
+            "temp_min": 32.23,
+            "temp_max": 32.23,
+            "pressure": 1008,
+            "humidity": 46,
+            "sea_level": 1008,
+            "grnd_level": 982
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 4.18,
+            "deg": 345,
+            "gust": 7.13
+        },
+        "clouds": {
+            "all": 71
+        },
+        "dt": 1746729417,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698709,
+            "sunset": 1746739954
+        },
+        "timezone": -14400,
+        "id": 3452786,
+        "name": "Porto Esperidião",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -56.3351,
+            "lat": -14.7196
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "céu limpo",
+                "icon": "01d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.53,
+            "feels_like": 34.85,
+            "temp_min": 32.53,
+            "temp_max": 32.53,
+            "pressure": 1009,
+            "humidity": 48,
+            "sea_level": 1009,
+            "grnd_level": 975
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.08,
+            "deg": 32,
+            "gust": 5.16
+        },
+        "clouds": {
+            "all": 1
+        },
+        "dt": 1746729418,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698211,
+            "sunset": 1746739608
+        },
+        "timezone": -14400,
+        "id": 3456277,
+        "name": "Nobres",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -56.8044,
+            "lat": -14.4519
+        },
+        "weather": [
+            {
+                "id": 801,
+                "main": "Clouds",
+                "description": "algumas nuvens",
+                "icon": "02d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.04,
+            "feels_like": 34.68,
+            "temp_min": 32.04,
+            "temp_max": 32.04,
+            "pressure": 1009,
+            "humidity": 51,
+            "sea_level": 1009,
+            "grnd_level": 973
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.21,
+            "deg": 43,
+            "gust": 5.58
+        },
+        "clouds": {
+            "all": 21
+        },
+        "dt": 1746729419,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698303,
+            "sunset": 1746739741
+        },
+        "timezone": -14400,
+        "id": 3456248,
+        "name": "Nortelândia",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -56.3435,
+            "lat": -15.7724
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "céu limpo",
+                "icon": "01d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 33.74,
+            "feels_like": 36.31,
+            "temp_min": 33.74,
+            "temp_max": 33.74,
+            "pressure": 1010,
+            "humidity": 45,
+            "sea_level": 1010,
+            "grnd_level": 985
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 4.91,
+            "deg": 3,
+            "gust": 6.72
+        },
+        "clouds": {
+            "all": 5
+        },
+        "dt": 1746729420,
+        "sys": {
+            "type": 1,
+            "id": 8352,
+            "country": "BR",
+            "sunrise": 1746698296,
+            "sunset": 1746739526
+        },
+        "timezone": -14400,
+        "id": 3456226,
+        "name": "Nossa Senhora do Livramento",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -57.814,
+            "lat": -9.8494
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.6,
+            "feels_like": 34.48,
+            "temp_min": 32.6,
+            "temp_max": 32.6,
+            "pressure": 1008,
+            "humidity": 46,
+            "sea_level": 1008,
+            "grnd_level": 979
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.22,
+            "deg": 68,
+            "gust": 3.68
+        },
+        "clouds": {
+            "all": 56
+        },
+        "dt": 1746729421,
+        "sys": {
+            "sunrise": 1746698191,
+            "sunset": 1746740338
+        },
+        "timezone": -14400,
+        "id": 0,
+        "name": "",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -54.9737,
+            "lat": -14.9299
+        },
+        "weather": [
+            {
+                "id": 801,
+                "main": "Clouds",
+                "description": "algumas nuvens",
+                "icon": "02d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.33,
+            "feels_like": 32.45,
+            "temp_min": 30.33,
+            "temp_max": 30.33,
+            "pressure": 1011,
+            "humidity": 55,
+            "sea_level": 1011,
+            "grnd_level": 944
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.26,
+            "deg": 37,
+            "gust": 5.66
+        },
+        "clouds": {
+            "all": 12
+        },
+        "dt": 1746729422,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697901,
+            "sunset": 1746739264
+        },
+        "timezone": -14400,
+        "id": 3466307,
+        "name": "Chapada dos Guimarães",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -55.7092,
+            "lat": -10.6368
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "nuvens dispersas",
+                "icon": "03d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.46,
+            "feels_like": 34.18,
+            "temp_min": 30.46,
+            "temp_max": 30.46,
+            "pressure": 1009,
+            "humidity": 62,
+            "sea_level": 1009,
+            "grnd_level": 975
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.35,
+            "deg": 84,
+            "gust": 2.24
+        },
+        "clouds": {
+            "all": 29
+        },
+        "dt": 1746729423,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697746,
+            "sunset": 1746739773
+        },
+        "timezone": -14400,
+        "id": 6316343,
+        "name": "Alta Floresta",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -55.4043,
+            "lat": -10.3102
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.55,
+            "feels_like": 35.1,
+            "temp_min": 30.55,
+            "temp_max": 30.55,
+            "pressure": 1009,
+            "humidity": 65,
+            "sea_level": 1009,
+            "grnd_level": 978
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.55,
+            "deg": 131,
+            "gust": 2.42
+        },
+        "clouds": {
+            "all": 78
+        },
+        "dt": 1746729424,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697648,
+            "sunset": 1746739724
+        },
+        "timezone": -14400,
+        "id": 3469034,
+        "name": "Brazil",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -59.5882,
+            "lat": -14.4754
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "nuvens dispersas",
+                "icon": "03d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.64,
+            "feels_like": 34.33,
+            "temp_min": 30.64,
+            "temp_max": 30.64,
+            "pressure": 1009,
+            "humidity": 61,
+            "sea_level": 1009,
+            "grnd_level": 967
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.88,
+            "deg": 33,
+            "gust": 3.99
+        },
+        "clouds": {
+            "all": 39
+        },
+        "dt": 1746729425,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698973,
+            "sunset": 1746740407
+        },
+        "timezone": -14400,
+        "id": 3453060,
+        "name": "Pontes e Lacerda",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -56.9709,
+            "lat": -14.3653
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.17,
+            "feels_like": 34.22,
+            "temp_min": 31.17,
+            "temp_max": 31.17,
+            "pressure": 1009,
+            "humidity": 56,
+            "sea_level": 1009,
+            "grnd_level": 967
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.47,
+            "deg": 38,
+            "gust": 5.08
+        },
+        "clouds": {
+            "all": 62
+        },
+        "dt": 1746729426,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698336,
+            "sunset": 1746739788
+        },
+        "timezone": -14400,
+        "id": 3471551,
+        "name": "Arenápolis",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -57.0923,
+            "lat": -13.0314
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "nuvens dispersas",
+                "icon": "03d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.21,
+            "feels_like": 32.96,
+            "temp_min": 32.21,
+            "temp_max": 32.21,
+            "pressure": 1009,
+            "humidity": 42,
+            "sea_level": 1009,
+            "grnd_level": 969
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.29,
+            "deg": 43,
+            "gust": 4.38
+        },
+        "clouds": {
+            "all": 32
+        },
+        "dt": 1746729427,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698261,
+            "sunset": 1746739921
+        },
+        "timezone": -14400,
+        "id": 3457419,
+        "name": "Mato Grosso",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -57.4673,
+            "lat": -9.9797
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.29,
+            "feels_like": 33.76,
+            "temp_min": 31.29,
+            "temp_max": 31.29,
+            "pressure": 1008,
+            "humidity": 53,
+            "sea_level": 1008,
+            "grnd_level": 977
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.29,
+            "deg": 117,
+            "gust": 3.79
+        },
+        "clouds": {
+            "all": 57
+        },
+        "dt": 1746729428,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698118,
+            "sunset": 1746740245
+        },
+        "timezone": -14400,
+        "id": 6323793,
+        "name": "Alta Floresta",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -56.0849,
+            "lat": -13.8255
+        },
+        "weather": [
+            {
+                "id": 801,
+                "main": "Clouds",
+                "description": "algumas nuvens",
+                "icon": "02d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.3,
+            "feels_like": 31.85,
+            "temp_min": 30.3,
+            "temp_max": 30.3,
+            "pressure": 1011,
+            "humidity": 52,
+            "sea_level": 1011,
+            "grnd_level": 963
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.71,
+            "deg": 29,
+            "gust": 5.23
+        },
+        "clouds": {
+            "all": 21
+        },
+        "dt": 1746728976,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698081,
+            "sunset": 1746739617
+        },
+        "timezone": -14400,
+        "id": 3464724,
+        "name": "Diamantino",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -51.7999,
+            "lat": -13.9898
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "céu limpo",
+                "icon": "01d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 33.28,
+            "feels_like": 34.46,
+            "temp_min": 33.28,
+            "temp_max": 33.28,
+            "pressure": 1010,
+            "humidity": 41,
+            "sea_level": 1010,
+            "grnd_level": 980
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.99,
+            "deg": 40,
+            "gust": 2.98
+        },
+        "clouds": {
+            "all": 9
+        },
+        "dt": 1746729430,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697066,
+            "sunset": 1746738576
+        },
+        "timezone": -14400,
+        "id": 3466255,
+        "name": "Nova Xavantina",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -57.2813,
+            "lat": -14.7765
+        },
+        "weather": [
+            {
+                "id": 801,
+                "main": "Clouds",
+                "description": "algumas nuvens",
+                "icon": "02d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.44,
+            "feels_like": 35.19,
+            "temp_min": 32.44,
+            "temp_max": 32.44,
+            "pressure": 1009,
+            "humidity": 50,
+            "sea_level": 1009,
+            "grnd_level": 981
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.71,
+            "deg": 1,
+            "gust": 5.72
+        },
+        "clouds": {
+            "all": 14
+        },
+        "dt": 1746729431,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698443,
+            "sunset": 1746739830
+        },
+        "timezone": -14400,
+        "id": 3456137,
+        "name": "Nova Olímpia",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -55.178,
+            "lat": -10.8495
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 27.06,
+            "feels_like": 29.59,
+            "temp_min": 27.06,
+            "temp_max": 27.06,
+            "pressure": 1010,
+            "humidity": 77,
+            "sea_level": 1010,
+            "grnd_level": 968
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.3,
+            "deg": 304,
+            "gust": 1.65
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1746729432,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697634,
+            "sunset": 1746739629
+        },
+        "timezone": -14400,
+        "id": 3469034,
+        "name": "Brazil",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -55.2539,
+            "lat": -13.0348
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.34,
+            "feels_like": 33.19,
+            "temp_min": 31.34,
+            "temp_max": 31.34,
+            "pressure": 1009,
+            "humidity": 50,
+            "sea_level": 1009,
+            "grnd_level": 961
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.87,
+            "deg": 21,
+            "gust": 4.55
+        },
+        "clouds": {
+            "all": 69
+        },
+        "dt": 1746729433,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697820,
+            "sunset": 1746739479
+        },
+        "timezone": -14400,
+        "id": 3457419,
+        "name": "Mato Grosso",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -52.352,
+            "lat": -14.6794
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 33.3,
+            "feels_like": 34.49,
+            "temp_min": 33.3,
+            "temp_max": 33.3,
+            "pressure": 1010,
+            "humidity": 41,
+            "sea_level": 1010,
+            "grnd_level": 972
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.5,
+            "deg": 70,
+            "gust": 2.92
+        },
+        "clouds": {
+            "all": 54
+        },
+        "dt": 1746729434,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697252,
+            "sunset": 1746738655
+        },
+        "timezone": -14400,
+        "id": 3466255,
+        "name": "Nova Xavantina",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -57.3159,
+            "lat": -11.3904
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.39,
+            "feels_like": 35.16,
+            "temp_min": 31.39,
+            "temp_max": 31.39,
+            "pressure": 1009,
+            "humidity": 58,
+            "sea_level": 1009,
+            "grnd_level": 977
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.53,
+            "deg": 350,
+            "gust": 3.26
+        },
+        "clouds": {
+            "all": 59
+        },
+        "dt": 1746729435,
+        "sys": {
+            "sunrise": 1746698189,
+            "sunset": 1746740101
+        },
+        "timezone": -14400,
+        "id": 0,
+        "name": "",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -55.178,
+            "lat": -9.9753
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.05,
+            "feels_like": 32.84,
+            "temp_min": 29.05,
+            "temp_max": 29.05,
+            "pressure": 1009,
+            "humidity": 70,
+            "sea_level": 1009,
+            "grnd_level": 976
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.66,
+            "deg": 75,
+            "gust": 0.93
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1746729436,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697568,
+            "sunset": 1746739696
+        },
+        "timezone": -14400,
+        "id": 3469034,
+        "name": "Brazil",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -50.9705,
+            "lat": -12.291
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "céu limpo",
+                "icon": "01d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 33.18,
+            "feels_like": 34.29,
+            "temp_min": 33.18,
+            "temp_max": 33.18,
+            "pressure": 1009,
+            "humidity": 41,
+            "sea_level": 1009,
+            "grnd_level": 986
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.8,
+            "deg": 83,
+            "gust": 3.46
+        },
+        "clouds": {
+            "all": 7
+        },
+        "dt": 1746729437,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746696735,
+            "sunset": 1746738509
+        },
+        "timezone": -14400,
+        "id": 3479308,
+        "name": "Paind do Araguaia",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -53.0178,
+            "lat": -14.9108
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "nuvens dispersas",
+                "icon": "03d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.93,
+            "feels_like": 33.34,
+            "temp_min": 31.93,
+            "temp_max": 31.93,
+            "pressure": 1010,
+            "humidity": 46,
+            "sea_level": 1010,
+            "grnd_level": 963
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.76,
+            "deg": 28,
+            "gust": 3.64
+        },
+        "clouds": {
+            "all": 42
+        },
+        "dt": 1746729438,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697430,
+            "sunset": 1746738797
+        },
+        "timezone": -14400,
+        "id": 3466255,
+        "name": "Nova Xavantina",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -56.4758,
+            "lat": -9.6656
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 27.86,
+            "feels_like": 29.91,
+            "temp_min": 27.86,
+            "temp_max": 27.86,
+            "pressure": 1009,
+            "humidity": 66,
+            "sea_level": 1009,
+            "grnd_level": 978
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.62,
+            "deg": 138,
+            "gust": 3.25
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1746729440,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697856,
+            "sunset": 1746740031
+        },
+        "timezone": -14400,
+        "id": 6323793,
+        "name": "Alta Floresta",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -54.0503,
+            "lat": -14.4298
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "nuvens dispersas",
+                "icon": "03d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.5,
+            "feels_like": 31.99,
+            "temp_min": 30.5,
+            "temp_max": 30.5,
+            "pressure": 1011,
+            "humidity": 51,
+            "sea_level": 1011,
+            "grnd_level": 951
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.85,
+            "deg": 47,
+            "gust": 5.09
+        },
+        "clouds": {
+            "all": 38
+        },
+        "dt": 1746729290,
+        "sys": {
+            "sunrise": 1746697640,
+            "sunset": 1746739082
+        },
+        "timezone": -14400,
+        "id": 0,
+        "name": "",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -54.4761,
+            "lat": -16.623
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "céu limpo",
+                "icon": "01d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 33.56,
+            "feels_like": 33.6,
+            "temp_min": 33.56,
+            "temp_max": 33.56,
+            "pressure": 1010,
+            "humidity": 35,
+            "sea_level": 1010,
+            "grnd_level": 977
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 4.51,
+            "deg": 20,
+            "gust": 4.7
+        },
+        "clouds": {
+            "all": 7
+        },
+        "dt": 1746729442,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697916,
+            "sunset": 1746739011
+        },
+        "timezone": -14400,
+        "id": 3450909,
+        "name": "Rondonópolis",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -54.992,
+            "lat": -10.2429
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 28.51,
+            "feels_like": 32.34,
+            "temp_min": 28.51,
+            "temp_max": 28.51,
+            "pressure": 1009,
+            "humidity": 74,
+            "sea_level": 1009,
+            "grnd_level": 977
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.76,
+            "deg": 274,
+            "gust": 0.69
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1746729242,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697543,
+            "sunset": 1746739631
+        },
+        "timezone": -14400,
+        "id": 3469034,
+        "name": "Brazil",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -54.7756,
+            "lat": -14.6628
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "céu limpo",
+                "icon": "01d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.36,
+            "feels_like": 31.94,
+            "temp_min": 30.36,
+            "temp_max": 30.36,
+            "pressure": 1010,
+            "humidity": 52,
+            "sea_level": 1010,
+            "grnd_level": 957
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.59,
+            "deg": 43,
+            "gust": 5.49
+        },
+        "clouds": {
+            "all": 7
+        },
+        "dt": 1746729444,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697832,
+            "sunset": 1746739238
+        },
+        "timezone": -14400,
+        "id": 3448350,
+        "name": "São Pedro da Cipa",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -56.6339,
+            "lat": -16.2579
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "nuvens dispersas",
+                "icon": "03d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 34.34,
+            "feels_like": 35.5,
+            "temp_min": 34.34,
+            "temp_max": 34.34,
+            "pressure": 1009,
+            "humidity": 38,
+            "sea_level": 1009,
+            "grnd_level": 992
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 4.97,
+            "deg": 359,
+            "gust": 6.08
+        },
+        "clouds": {
+            "all": 31
+        },
+        "dt": 1746729445,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698405,
+            "sunset": 1746739558
+        },
+        "timezone": -14400,
+        "id": 3453315,
+        "name": "Poconé",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -52.2574,
+            "lat": -15.9045
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 34.39,
+            "feels_like": 37.9,
+            "temp_min": 34.39,
+            "temp_max": 34.39,
+            "pressure": 1011,
+            "humidity": 46,
+            "sea_level": 1011,
+            "grnd_level": 967
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.06,
+            "deg": 110
+        },
+        "clouds": {
+            "all": 75
+        },
+        "dt": 1746729446,
+        "sys": {
+            "type": 1,
+            "id": 8325,
+            "country": "BR",
+            "sunrise": 1746697326,
+            "sunset": 1746738536
+        },
+        "timezone": -14400,
+        "id": 3471840,
+        "name": "Aragarças",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -52.8369,
+            "lat": -16.7584
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.08,
+            "feels_like": 32.04,
+            "temp_min": 32.08,
+            "temp_max": 32.08,
+            "pressure": 1011,
+            "humidity": 38,
+            "sea_level": 1011,
+            "grnd_level": 953
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 4.15,
+            "deg": 351,
+            "gust": 4.06
+        },
+        "clouds": {
+            "all": 64
+        },
+        "dt": 1746729447,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697533,
+            "sunset": 1746738607
+        },
+        "timezone": -14400,
+        "id": 3472473,
+        "name": "Alto Araguaia",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -59.335,
+            "lat": -15.2315
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.08,
+            "feels_like": 32.78,
+            "temp_min": 30.08,
+            "temp_max": 30.08,
+            "pressure": 1009,
+            "humidity": 59,
+            "sea_level": 1009,
+            "grnd_level": 977
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.44,
+            "deg": 1,
+            "gust": 6.59
+        },
+        "clouds": {
+            "all": 87
+        },
+        "dt": 1746729448,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698972,
+            "sunset": 1746740287
+        },
+        "timezone": -14400,
+        "id": 3453060,
+        "name": "Pontes e Lacerda",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -51.6392,
+            "lat": -10.8793
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 28.44,
+            "feels_like": 32.18,
+            "temp_min": 28.44,
+            "temp_max": 28.44,
+            "pressure": 1010,
+            "humidity": 74,
+            "sea_level": 1010,
+            "grnd_level": 987
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.17,
+            "deg": 54,
+            "gust": 1.49
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1746729449,
+        "sys": {
+            "sunrise": 1746696787,
+            "sunset": 1746738778
+        },
+        "timezone": -14400,
+        "id": 0,
+        "name": "",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -57.4132,
+            "lat": -11.533
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "nuvens dispersas",
+                "icon": "03d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.29,
+            "feels_like": 34.7,
+            "temp_min": 31.29,
+            "temp_max": 31.29,
+            "pressure": 1009,
+            "humidity": 57,
+            "sea_level": 1009,
+            "grnd_level": 977
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.65,
+            "deg": 334,
+            "gust": 3.09
+        },
+        "clouds": {
+            "all": 49
+        },
+        "dt": 1746729450,
+        "sys": {
+            "sunrise": 1746698223,
+            "sunset": 1746740113
+        },
+        "timezone": -14400,
+        "id": 0,
+        "name": "",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -58.4693,
+            "lat": -15.8522
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.38,
+            "feels_like": 33.65,
+            "temp_min": 32.38,
+            "temp_max": 32.38,
+            "pressure": 1008,
+            "humidity": 44,
+            "sea_level": 1008,
+            "grnd_level": 987
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 4.23,
+            "deg": 355,
+            "gust": 6.92
+        },
+        "clouds": {
+            "all": 93
+        },
+        "dt": 1746729200,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698813,
+            "sunset": 1746740030
+        },
+        "timezone": -14400,
+        "id": 3452786,
+        "name": "Porto Esperidião",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -57.2081,
+            "lat": -15.3331
+        },
+        "weather": [
+            {
+                "id": 801,
+                "main": "Clouds",
+                "description": "algumas nuvens",
+                "icon": "02d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 33.05,
+            "feels_like": 36.39,
+            "temp_min": 33.05,
+            "temp_max": 33.05,
+            "pressure": 1009,
+            "humidity": 50,
+            "sea_level": 1009,
+            "grnd_level": 987
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.42,
+            "deg": 18,
+            "gust": 6.15
+        },
+        "clouds": {
+            "all": 20
+        },
+        "dt": 1746729454,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698469,
+            "sunset": 1746739769
+        },
+        "timezone": -14400,
+        "id": 3470718,
+        "name": "Barra do Bugres",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -54.3925,
+            "lat": -15.8291
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "céu limpo",
+                "icon": "01d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.64,
+            "feels_like": 33.43,
+            "temp_min": 30.64,
+            "temp_max": 30.64,
+            "pressure": 1011,
+            "humidity": 57,
+            "sea_level": 1011,
+            "grnd_level": 954
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.47,
+            "deg": 30,
+            "gust": 5.11
+        },
+        "clouds": {
+            "all": 9
+        },
+        "dt": 1746729455,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697833,
+            "sunset": 1746739054
+        },
+        "timezone": -14400,
+        "id": 3452490,
+        "name": "Poxoréo",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -54.2994,
+            "lat": -15.5614
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "céu limpo",
+                "icon": "01d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 28.88,
+            "feels_like": 30.26,
+            "temp_min": 28.88,
+            "temp_max": 28.88,
+            "pressure": 1011,
+            "humidity": 56,
+            "sea_level": 1011,
+            "grnd_level": 944
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.1,
+            "deg": 38,
+            "gust": 5.34
+        },
+        "clouds": {
+            "all": 9
+        },
+        "dt": 1746729434,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697789,
+            "sunset": 1746739053
+        },
+        "timezone": -14400,
+        "id": 3452490,
+        "name": "Poxoréo",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -52.2089,
+            "lat": -12.5945
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.69,
+            "feels_like": 31.71,
+            "temp_min": 29.69,
+            "temp_max": 29.69,
+            "pressure": 1010,
+            "humidity": 57,
+            "sea_level": 1010,
+            "grnd_level": 971
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.63,
+            "deg": 92,
+            "gust": 4.71
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1746729457,
+        "sys": {
+            "sunrise": 1746697055,
+            "sunset": 1746738783
+        },
+        "timezone": -14400,
+        "id": 0,
+        "name": "",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -58.3836,
+            "lat": -15.1211
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.15,
+            "feels_like": 32.68,
+            "temp_min": 29.15,
+            "temp_max": 29.15,
+            "pressure": 1009,
+            "humidity": 68,
+            "sea_level": 1009,
+            "grnd_level": 957
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.21,
+            "deg": 23,
+            "gust": 5.34
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1746729459,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698735,
+            "sunset": 1746740067
+        },
+        "timezone": -14400,
+        "id": 3452786,
+        "name": "Porto Esperidião",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -51.5799,
+            "lat": -12.8788
+        },
+        "weather": [
+            {
+                "id": 801,
+                "main": "Clouds",
+                "description": "algumas nuvens",
+                "icon": "02d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.58,
+            "feels_like": 33.61,
+            "temp_min": 31.58,
+            "temp_max": 31.58,
+            "pressure": 1010,
+            "humidity": 50,
+            "sea_level": 1010,
+            "grnd_level": 979
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.21,
+            "deg": 54,
+            "gust": 2.93
+        },
+        "clouds": {
+            "all": 21
+        },
+        "dt": 1746729460,
+        "sys": {
+            "sunrise": 1746696926,
+            "sunset": 1746738610
+        },
+        "timezone": -14400,
+        "id": 0,
+        "name": "",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -52.6942,
+            "lat": -16.4898
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.42,
+            "feels_like": 32.52,
+            "temp_min": 32.42,
+            "temp_max": 32.42,
+            "pressure": 1011,
+            "humidity": 38,
+            "sea_level": 1011,
+            "grnd_level": 956
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.39,
+            "deg": 21,
+            "gust": 3.62
+        },
+        "clouds": {
+            "all": 65
+        },
+        "dt": 1746729461,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697477,
+            "sunset": 1746738594
+        },
+        "timezone": -14400,
+        "id": 3471840,
+        "name": "Aragarças",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -58.1161,
+            "lat": -15.2398
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "nuvens dispersas",
+                "icon": "03d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.7,
+            "feels_like": 34.46,
+            "temp_min": 30.7,
+            "temp_max": 30.7,
+            "pressure": 1009,
+            "humidity": 61,
+            "sea_level": 1009,
+            "grnd_level": 974
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.99,
+            "deg": 2,
+            "gust": 6.2
+        },
+        "clouds": {
+            "all": 48
+        },
+        "dt": 1746729462,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698680,
+            "sunset": 1746739994
+        },
+        "timezone": -14400,
+        "id": 3461440,
+        "name": "Ildefonso",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -61.4597,
+            "lat": -10.8429
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 26.9,
+            "feels_like": 30.45,
+            "temp_min": 26.9,
+            "temp_max": 26.9,
+            "pressure": 1009,
+            "humidity": 90,
+            "sea_level": 1009,
+            "grnd_level": 976
+        },
+        "visibility": 9973,
+        "wind": {
+            "speed": 1.14,
+            "deg": 344,
+            "gust": 3.83
+        },
+        "clouds": {
+            "all": 97
+        },
+        "dt": 1746729463,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746699142,
+            "sunset": 1746741137
+        },
+        "timezone": -14400,
+        "id": 3924826,
+        "name": "Rondônia",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -54.6397,
+            "lat": -16.4604
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "céu limpo",
+                "icon": "01d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 33.34,
+            "feels_like": 33.48,
+            "temp_min": 33.34,
+            "temp_max": 33.34,
+            "pressure": 1010,
+            "humidity": 36,
+            "sea_level": 1010,
+            "grnd_level": 976
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 5.22,
+            "deg": 19,
+            "gust": 5.02
+        },
+        "clouds": {
+            "all": 5
+        },
+        "dt": 1746729464,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697942,
+            "sunset": 1746739063
+        },
+        "timezone": -14400,
+        "id": 3450909,
+        "name": "Rondonópolis",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -56.4236,
+            "lat": -14.8259
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "céu limpo",
+                "icon": "01d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.69,
+            "feels_like": 34.89,
+            "temp_min": 32.69,
+            "temp_max": 32.69,
+            "pressure": 1009,
+            "humidity": 47,
+            "sea_level": 1009,
+            "grnd_level": 976
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.2,
+            "deg": 31,
+            "gust": 5.38
+        },
+        "clouds": {
+            "all": 1
+        },
+        "dt": 1746729465,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698241,
+            "sunset": 1746739620
+        },
+        "timezone": -14400,
+        "id": 3450872,
+        "name": "Rosário Oeste",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -58.1299,
+            "lat": -15.1296
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.98,
+            "feels_like": 33.2,
+            "temp_min": 29.98,
+            "temp_max": 29.98,
+            "pressure": 1009,
+            "humidity": 62,
+            "sea_level": 1009,
+            "grnd_level": 967
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.04,
+            "deg": 8,
+            "gust": 6.34
+        },
+        "clouds": {
+            "all": 54
+        },
+        "dt": 1746729466,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698674,
+            "sunset": 1746740006
+        },
+        "timezone": -14400,
+        "id": 3461440,
+        "name": "Ildefonso",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -55.2788,
+            "lat": -11.9746
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 27.75,
+            "feels_like": 29.62,
+            "temp_min": 27.75,
+            "temp_max": 27.75,
+            "pressure": 1010,
+            "humidity": 65,
+            "sea_level": 1010,
+            "grnd_level": 969
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.57,
+            "deg": 36,
+            "gust": 0.59
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1746729467,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697745,
+            "sunset": 1746739567
+        },
+        "timezone": -14400,
+        "id": 3457419,
+        "name": "Mato Grosso",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -52.392,
+            "lat": -10.1533
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 27.24,
+            "feels_like": 29.36,
+            "temp_min": 27.24,
+            "temp_max": 27.24,
+            "pressure": 1010,
+            "humidity": 71,
+            "sea_level": 1010,
+            "grnd_level": 975
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.57,
+            "deg": 191,
+            "gust": 2.92
+        },
+        "clouds": {
+            "all": 74
+        },
+        "dt": 1746729468,
+        "sys": {
+            "sunrise": 1746696913,
+            "sunset": 1746739014
+        },
+        "timezone": -14400,
+        "id": 0,
+        "name": "",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -55.2721,
+            "lat": -13.814
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "nuvens dispersas",
+                "icon": "03d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.93,
+            "feels_like": 32.31,
+            "temp_min": 30.93,
+            "temp_max": 30.93,
+            "pressure": 1010,
+            "humidity": 49,
+            "sea_level": 1010,
+            "grnd_level": 957
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.91,
+            "deg": 69,
+            "gust": 4.65
+        },
+        "clouds": {
+            "all": 30
+        },
+        "dt": 1746729470,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697885,
+            "sunset": 1746739423
+        },
+        "timezone": -14400,
+        "id": 3457419,
+        "name": "Mato Grosso",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -50.514,
+            "lat": -10.4704
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.23,
+            "feels_like": 33.65,
+            "temp_min": 31.23,
+            "temp_max": 31.23,
+            "pressure": 1009,
+            "humidity": 53,
+            "sea_level": 1009,
+            "grnd_level": 988
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.46,
+            "deg": 101,
+            "gust": 2.45
+        },
+        "clouds": {
+            "all": 96
+        },
+        "dt": 1746729471,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746696486,
+            "sunset": 1746738539
+        },
+        "timezone": -14400,
+        "id": 3479308,
+        "name": "Paind do Araguaia",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -57.0045,
+            "lat": -14.4961
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.57,
+            "feels_like": 33.29,
+            "temp_min": 30.57,
+            "temp_max": 30.57,
+            "pressure": 1009,
+            "humidity": 57,
+            "sea_level": 1009,
+            "grnd_level": 971
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.37,
+            "deg": 49,
+            "gust": 4.92
+        },
+        "clouds": {
+            "all": 54
+        },
+        "dt": 1746729472,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698354,
+            "sunset": 1746739786
+        },
+        "timezone": -14400,
+        "id": 3471551,
+        "name": "Arenápolis",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -53.6096,
+            "lat": -14.8038
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.24,
+            "feels_like": 30.67,
+            "temp_min": 29.24,
+            "temp_max": 29.24,
+            "pressure": 1011,
+            "humidity": 55,
+            "sea_level": 1011,
+            "grnd_level": 946
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.06,
+            "deg": 42,
+            "gust": 4.23
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1746729473,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697564,
+            "sunset": 1746738947
+        },
+        "timezone": -14400,
+        "id": 3466255,
+        "name": "Nova Xavantina",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -50.6667,
+            "lat": -11.6171
+        },
+        "weather": [
+            {
+                "id": 801,
+                "main": "Clouds",
+                "description": "algumas nuvens",
+                "icon": "02d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.56,
+            "feels_like": 33.51,
+            "temp_min": 32.56,
+            "temp_max": 32.56,
+            "pressure": 1009,
+            "humidity": 42,
+            "sea_level": 1009,
+            "grnd_level": 987
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.11,
+            "deg": 77,
+            "gust": 4.47
+        },
+        "clouds": {
+            "all": 18
+        },
+        "dt": 1746729475,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746696610,
+            "sunset": 1746738488
+        },
+        "timezone": -14400,
+        "id": 3479308,
+        "name": "Paind do Araguaia",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -54.2539,
+            "lat": -16.4648
+        },
+        "weather": [
+            {
+                "id": 801,
+                "main": "Clouds",
+                "description": "algumas nuvens",
+                "icon": "02d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.89,
+            "feels_like": 33.61,
+            "temp_min": 32.89,
+            "temp_max": 32.89,
+            "pressure": 1010,
+            "humidity": 40,
+            "sea_level": 1010,
+            "grnd_level": 976
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.8,
+            "deg": 19,
+            "gust": 4.55
+        },
+        "clouds": {
+            "all": 11
+        },
+        "dt": 1746729476,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697850,
+            "sunset": 1746738970
+        },
+        "timezone": -14400,
+        "id": 3450909,
+        "name": "Rondonópolis",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -56.7214,
+            "lat": -13.4467
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "céu limpo",
+                "icon": "01d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.87,
+            "feels_like": 32.8,
+            "temp_min": 30.87,
+            "temp_max": 30.87,
+            "pressure": 1010,
+            "humidity": 52,
+            "sea_level": 1010,
+            "grnd_level": 970
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.79,
+            "deg": 42,
+            "gust": 4.75
+        },
+        "clouds": {
+            "all": 5
+        },
+        "dt": 1746729477,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698205,
+            "sunset": 1746739800
+        },
+        "timezone": -14400,
+        "id": 3457419,
+        "name": "Mato Grosso",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -52.7358,
+            "lat": -10.8039
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "céu limpo",
+                "icon": "01d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.05,
+            "feels_like": 33.32,
+            "temp_min": 31.05,
+            "temp_max": 31.05,
+            "pressure": 1010,
+            "humidity": 53,
+            "sea_level": 1010,
+            "grnd_level": 973
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.22,
+            "deg": 69,
+            "gust": 4.42
+        },
+        "clouds": {
+            "all": 0
+        },
+        "dt": 1746729478,
+        "sys": {
+            "sunrise": 1746697045,
+            "sunset": 1746739047
+        },
+        "timezone": -14400,
+        "id": 0,
+        "name": "",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -58.1765,
+            "lat": -15.6271
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "nuvens dispersas",
+                "icon": "03d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.75,
+            "feels_like": 34.75,
+            "temp_min": 32.75,
+            "temp_max": 32.75,
+            "pressure": 1008,
+            "humidity": 46,
+            "sea_level": 1008,
+            "grnd_level": 983
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 4.53,
+            "deg": 356,
+            "gust": 6.84
+        },
+        "clouds": {
+            "all": 38
+        },
+        "dt": 1746729242,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698725,
+            "sunset": 1746739978
+        },
+        "timezone": -14400,
+        "id": 3452786,
+        "name": "Porto Esperidião",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -54.9212,
+            "lat": -16.003
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "céu limpo",
+                "icon": "01d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.62,
+            "feels_like": 34.28,
+            "temp_min": 32.62,
+            "temp_max": 32.62,
+            "pressure": 1010,
+            "humidity": 45,
+            "sea_level": 1010,
+            "grnd_level": 973
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.7,
+            "deg": 29,
+            "gust": 5.12
+        },
+        "clouds": {
+            "all": 7
+        },
+        "dt": 1746729480,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697973,
+            "sunset": 1746739167
+        },
+        "timezone": -14400,
+        "id": 3460355,
+        "name": "Jaciara",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -58.8146,
+            "lat": -13.548
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 28.07,
+            "feels_like": 30.15,
+            "temp_min": 28.07,
+            "temp_max": 28.07,
+            "pressure": 1010,
+            "humidity": 65,
+            "sea_level": 1010,
+            "grnd_level": 948
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.87,
+            "deg": 11,
+            "gust": 4.99
+        },
+        "clouds": {
+            "all": 60
+        },
+        "dt": 1746729377,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698715,
+            "sunset": 1746740294
+        },
+        "timezone": -14400,
+        "id": 3474501,
+        "name": "Comodoro",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -51.4006,
+            "lat": -12.089
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.58,
+            "feels_like": 32.23,
+            "temp_min": 29.58,
+            "temp_max": 29.58,
+            "pressure": 1010,
+            "humidity": 61,
+            "sea_level": 1010,
+            "grnd_level": 977
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.14,
+            "deg": 51,
+            "gust": 1.47
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1746729482,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746696823,
+            "sunset": 1746738628
+        },
+        "timezone": -14400,
+        "id": 3479308,
+        "name": "Paind do Araguaia",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -55.4968,
+            "lat": -11.8578
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 26.71,
+            "feels_like": 28.45,
+            "temp_min": 26.71,
+            "temp_max": 26.71,
+            "pressure": 1010,
+            "humidity": 71,
+            "sea_level": 1010,
+            "grnd_level": 968
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.98,
+            "deg": 92,
+            "gust": 0.91
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1746729483,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697788,
+            "sunset": 1746739628
+        },
+        "timezone": -14400,
+        "id": 3457419,
+        "name": "Mato Grosso",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -55.7234,
+            "lat": -12.5445
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 27.64,
+            "feels_like": 30.1,
+            "temp_min": 27.64,
+            "temp_max": 27.64,
+            "pressure": 1010,
+            "humidity": 71,
+            "sea_level": 1010,
+            "grnd_level": 968
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.53,
+            "deg": 325,
+            "gust": 2.58
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1746729013,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697895,
+            "sunset": 1746739630
+        },
+        "timezone": -14400,
+        "id": 3457419,
+        "name": "Mato Grosso",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -56.8213,
+            "lat": -11.3085
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.38,
+            "feels_like": 33.65,
+            "temp_min": 32.38,
+            "temp_max": 32.38,
+            "pressure": 1009,
+            "humidity": 44,
+            "sea_level": 1009,
+            "grnd_level": 971
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.97,
+            "deg": 60,
+            "gust": 3.59
+        },
+        "clouds": {
+            "all": 95
+        },
+        "dt": 1746729485,
+        "sys": {
+            "sunrise": 1746698064,
+            "sunset": 1746739988
+        },
+        "timezone": -14400,
+        "id": 0,
+        "name": "",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -57.4907,
+            "lat": -14.6214
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "céu limpo",
+                "icon": "01d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.76,
+            "feels_like": 33.65,
+            "temp_min": 30.76,
+            "temp_max": 30.76,
+            "pressure": 1009,
+            "humidity": 57,
+            "sea_level": 1009,
+            "grnd_level": 975
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.82,
+            "deg": 7,
+            "gust": 6.15
+        },
+        "clouds": {
+            "all": 10
+        },
+        "dt": 1746729486,
+        "sys": {
+            "sunrise": 1746698481,
+            "sunset": 1746739892
+        },
+        "timezone": -14400,
+        "id": 6255150,
+        "name": "South America",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -56.512,
+            "lat": -12.7424
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.65,
+            "feels_like": 33.02,
+            "temp_min": 30.65,
+            "temp_max": 30.65,
+            "pressure": 1010,
+            "humidity": 55,
+            "sea_level": 1010,
+            "grnd_level": 969
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.26,
+            "deg": 67,
+            "gust": 4.82
+        },
+        "clouds": {
+            "all": 88
+        },
+        "dt": 1746729487,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698100,
+            "sunset": 1746739804
+        },
+        "timezone": -14400,
+        "id": 3457419,
+        "name": "Mato Grosso",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -55.1167,
+            "lat": -10.5995
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 28.1,
+            "feels_like": 31.43,
+            "temp_min": 28.1,
+            "temp_max": 28.1,
+            "pressure": 1009,
+            "humidity": 74,
+            "sea_level": 1009,
+            "grnd_level": 971
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.4,
+            "deg": 280,
+            "gust": 1.47
+        },
+        "clouds": {
+            "all": 94
+        },
+        "dt": 1746729488,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697601,
+            "sunset": 1746739633
+        },
+        "timezone": -14400,
+        "id": 3469034,
+        "name": "Brazil",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -53.5531,
+            "lat": -16.0802
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.46,
+            "feels_like": 32.39,
+            "temp_min": 31.46,
+            "temp_max": 31.46,
+            "pressure": 1011,
+            "humidity": 45,
+            "sea_level": 1011,
+            "grnd_level": 950
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.01,
+            "deg": 2,
+            "gust": 4.38
+        },
+        "clouds": {
+            "all": 70
+        },
+        "dt": 1746729489,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697651,
+            "sunset": 1746738833
+        },
+        "timezone": -14400,
+        "id": 3461733,
+        "name": "Guiratinga",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -52.5571,
+            "lat": -16.2006
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 33.65,
+            "feels_like": 35.08,
+            "temp_min": 33.65,
+            "temp_max": 33.65,
+            "pressure": 1011,
+            "humidity": 41,
+            "sea_level": 1011,
+            "grnd_level": 961
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.94,
+            "deg": 43,
+            "gust": 3.24
+        },
+        "clouds": {
+            "all": 96
+        },
+        "dt": 1746729491,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697421,
+            "sunset": 1746738584
+        },
+        "timezone": -14400,
+        "id": 3471840,
+        "name": "Aragarças",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -54.3696,
+            "lat": -11.5309
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 27.18,
+            "feels_like": 28.64,
+            "temp_min": 27.18,
+            "temp_max": 27.18,
+            "pressure": 1009,
+            "humidity": 64,
+            "sea_level": 1009,
+            "grnd_level": 969
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.92,
+            "deg": 53,
+            "gust": 0.74
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1746729492,
+        "sys": {
+            "sunrise": 1746697492,
+            "sunset": 1746739383
+        },
+        "timezone": -14400,
+        "id": 0,
+        "name": "",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -59.0656,
+            "lat": -15.2967
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.24,
+            "feels_like": 32.31,
+            "temp_min": 29.24,
+            "temp_max": 29.24,
+            "pressure": 1009,
+            "humidity": 65,
+            "sea_level": 1009,
+            "grnd_level": 968
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.38,
+            "deg": 359,
+            "gust": 6.39
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1746729493,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746698912,
+            "sunset": 1746740217
+        },
+        "timezone": -14400,
+        "id": 3453060,
+        "name": "Pontes e Lacerda",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -56.1322,
+            "lat": -15.6458
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 33.93,
+            "feels_like": 37.91,
+            "temp_min": 33.93,
+            "temp_max": 33.93,
+            "pressure": 1010,
+            "humidity": 49,
+            "sea_level": 1010,
+            "grnd_level": 988
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 5.14,
+            "deg": 320
+        },
+        "clouds": {
+            "all": 75
+        },
+        "dt": 1746729494,
+        "sys": {
+            "type": 1,
+            "id": 8352,
+            "country": "BR",
+            "sunrise": 1746698236,
+            "sunset": 1746739486
+        },
+        "timezone": -14400,
+        "id": 3445451,
+        "name": "Várzea Grande",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -55.2974,
+            "lat": -12.2862
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 27.61,
+            "feels_like": 29.49,
+            "temp_min": 27.61,
+            "temp_max": 27.61,
+            "pressure": 1010,
+            "humidity": 66,
+            "sea_level": 1010,
+            "grnd_level": 968
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.76,
+            "deg": 339,
+            "gust": 0.7
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1746729495,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746697773,
+            "sunset": 1746739548
+        },
+        "timezone": -14400,
+        "id": 3457419,
+        "name": "Mato Grosso",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -59.9611,
+            "lat": -15.0099
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32,
+            "feels_like": 34.61,
+            "temp_min": 32,
+            "temp_max": 32,
+            "pressure": 1008,
+            "humidity": 51,
+            "sea_level": 1008,
+            "grnd_level": 975
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.29,
+            "deg": 2,
+            "gust": 5.43
+        },
+        "clouds": {
+            "all": 70
+        },
+        "dt": 1746729496,
+        "sys": {
+            "country": "BR",
+            "sunrise": 1746699105,
+            "sunset": 1746740455
+        },
+        "timezone": -14400,
+        "id": 3453060,
+        "name": "Pontes e Lacerda",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": -51.1186,
+            "lat": -10.0137
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "nublado",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 27.52,
+            "feels_like": 30.81,
+            "temp_min": 27.52,
+            "temp_max": 27.52,
+            "pressure": 1010,
+            "humidity": 79,
+            "sea_level": 1010,
+            "grnd_level": 980
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.68,
+            "deg": 161,
+            "gust": 2.18
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1746729497,
+        "sys": {
+            "sunrise": 1746696596,
+            "sunset": 1746738719
+        },
+        "timezone": -14400,
+        "id": 0,
+        "name": "",
+        "cod": 200
+    }
+]
