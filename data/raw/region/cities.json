@@ -1,0 +1,712 @@
+[
+    {
+        "name": "Acorizal",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Água Boa",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Alta Floresta",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Alto Araguaia",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Alto Boa Vista",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Alto Garças",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Alto Paraguai",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Alto Taquari",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Apiacás",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Araguaiana",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Araguainha",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Araputanga",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Arenápolis",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Aripuanã",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Barão de Melgaço",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Barra do Bugres",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Barra do Garças",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Bom Jesus do Araguaia",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Brasnorte",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Cáceres",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Campinápolis",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Campo Novo do Parecis",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Campo Verde",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Campos de Júlio",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Canabrava do Norte",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Canarana",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Carlinda",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Castanheira",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Chapada dos Guimarães",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Cláudia",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Cocalinho",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Colíder",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Colniza",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Comodoro",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Confresa",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Conquista d'Oeste",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Cotriguaçu",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Cuiabá",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Curvelândia",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Denise",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Diamantino",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Dom Aquino",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Feliz Natal",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Figueirópolis d'Oeste",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Gaúcha do Norte",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "General Carneiro",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Glória d'Oeste",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Guarantã do Norte",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Guiratinga",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Indiavaí",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Ipiranga do Norte",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Itanhangá",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Itaúba",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Itiquira",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Jaciara",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Jangada",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Jauru",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Juara",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Juína",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Juruena",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Juscimeira",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Lambari d'Oeste",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Lucas do Rio Verde",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Luciara",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Marcelândia",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Matupá",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Mirassol d'Oeste",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Nobres",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Nortelândia",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Nossa Senhora do Livramento",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Nova Bandeirantes",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Nova Brasilândia",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Nova Canaã do Norte",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Nova Guarita",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Nova Lacerda",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Nova Marilândia",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Nova Maringá",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Nova Monte Verde",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Nova Mutum",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Nova Nazaré",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Nova Olímpia",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Nova Santa Helena",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Nova Ubiratã",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Nova Xavantina",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Novo Horizonte do Norte",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Novo Mundo",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Novo Santo Antônio",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Novo São Joaquim",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Paranaíta",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Paranatinga",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Pedra Preta",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Peixoto de Azevedo",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Planalto da Serra",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Poconé",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Pontal do Araguaia",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Ponte Branca",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Pontes e Lacerda",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Porto Alegre do Norte",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Porto dos Gaúchos",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Porto Esperidião",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Porto Estrela",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Poxoréu",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Primavera do Leste",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Querência",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Reserva do Cabaçal",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Ribeirão Cascalheira",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Ribeirãozinho",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Rio Branco",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Rondolândia",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Rondonópolis",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Rosário Oeste",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Salto do Céu",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Santa Carmem",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Santa Cruz do Xingu",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Santa Rita do Trivelato",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Santa Terezinha",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Santo Afonso",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Santo Antônio do Leste",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Santo Antônio do Leverger",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "São Félix do Araguaia",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "São José do Povo",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "São José do Rio Claro",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "São José do Xingu",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "São José dos Quatro Marcos",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "São Pedro da Cipa",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Sapezal",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Serra Nova Dourada",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Sinop",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Sorriso",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Tabaporã",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Tangará da Serra",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Tapurah",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Terra Nova do Norte",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Tesouro",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Torixoréu",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "União do Sul",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Vale de São Domingos",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Várzea Grande",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Vera",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Vila Bela da Santíssima Trindade",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Vila Rica",
+        "state_code": "MT",
+        "country_code": "BR"
+    },
+    {
+        "name": "Vila Rica",
+        "state_code": "MT",
+        "country_code": "BR"
+    }
+]

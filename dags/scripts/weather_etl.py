@@ -67,7 +67,7 @@ def create_directories(timestamp):
     os.makedirs(full_path, exist_ok=True)
     return full_path
 
-def load_cities(file_path='./data/raw/regions/cities.json'):
+def load_cities(file_path='./data/raw/region/cities.json'):
     with open(file_path, 'r') as file:
         return json.load(file)  
     
