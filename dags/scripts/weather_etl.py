@@ -74,13 +74,40 @@ def get_weather_data(**context):
         state_code = city.get('state_code')
         country_code = city.get('country_code')
 
-        lat, lon = extract_coordinates(city_name, state_code, country_code)
+        lat, lon = find_city_coordinates(city_name)
+        weather_data = []
 
         if lat is None or lon is None:
-            continue
+            print('Getting latitude and longitude from API.')
+            openweather_hook = OpenWeatherHook(city_name=city_name, state_code=state_code, country_code=country_code)
 
-        openweather_hook = OpenWeatherHook(lat, lon)
-        weather_data = openweather_hook.get_current_weather_data()
+            try:
+                weather_data = openweather_hook.run()
+            except ValueError as e:
+                print(f"Error retrieving weather data: {e}")
+                continue  
+            
+            state_mapping = {
+                'Acre': 'AC', 'Alagoas': 'AL', 'Amapá': 'AP', 'Amazonas': 'AM', 'Bahia': 'BA',
+                'Ceará': 'CE', 'Distrito Federal': 'DF', 'Espírito Santo': 'ES', 'Goiás': 'GO',
+                'Maranhão': 'MA', 'Mato Grosso': 'MT', 'Mato Grosso do Sul': 'MS', 'Minas Gerais': 'MG',
+                'Pará': 'PA', 'Paraíba': 'PB', 'Paraná': 'PR', 'Pernambuco': 'PE', 'Piauí': 'PI',
+                'Rio de Janeiro': 'RJ', 'Rio Grande do Norte': 'RN', 'Rio Grande do Sul': 'RS',
+                'Rondônia': 'RO', 'Roraima': 'RR', 'Santa Catarina': 'SC', 'São Paulo': 'SP',
+                'Sergipe': 'SE', 'Tocantins': 'TO'
+            }
+
+            state = weather_data[0].get('state')
+            state_code = state_mapping.get(state)
+
+            create_new_city(city_name=city_name, latitude=lat, longitude=lon, country_code=country_code, state_code=state_code)
+        else:
+            print('Getting latitude and longitude from Database.')
+            openweather_hook = OpenWeatherHook(latitude=lat, longitude=lon)
+            weather_data = openweather_hook.run()
+
+        if weather_data is None or len(weather_data) == 0:
+            continue
 
         if weather_data:
             weather_data_cities.append(weather_data)
