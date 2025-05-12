@@ -1,59 +1,14 @@
 import os
 import json
-import pytz
 
 from hook.openweather_hook import OpenWeatherHook
-from scripts.db_weather_operations import find_city_coordinates, create_new_city
+from scripts.db.db_operations import find_city_coordinates, create_new_city
 
 import pandas as pd
 import numpy as np
 
-from datetime import time
-
-def format_date_to_utc(timestamp, format):
-    format_tz = pytz.timezone(format)
-    date_local = timestamp.astimezone(format_tz)
-    
-    timestamp_formated = date_local.strftime('%Y%m%d_%H%M%S')
-
-    return timestamp_formated
-
-
-def extract_coordinates(city_name, state_code='MT', country_code='BR'):
-    lat, lon = find_city_coordinates(city_name)
-
-    if lat is not None and lon is not None:
-        print('Getting coordinates from database')
-        return lat, lon
-    else:
-        print('Getting coordinates from API')
-        openweather_hook = OpenWeatherHook(city_name=city_name, state_code=state_code, country_code=country_code)
-        coordinates_data = openweather_hook.get_coordinates_by_city()
-
-        if not coordinates_data:
-            return None, None
-
-        lat = coordinates_data[0].get('lat')
-        lon = coordinates_data[0].get('lon')
-        country_code = coordinates_data[0].get('country')
-
-        state_mapping = {
-            'Acre': 'AC', 'Alagoas': 'AL', 'Amapá': 'AP', 'Amazonas': 'AM', 'Bahia': 'BA',
-            'Ceará': 'CE', 'Distrito Federal': 'DF', 'Espírito Santo': 'ES', 'Goiás': 'GO',
-            'Maranhão': 'MA', 'Mato Grosso': 'MT', 'Mato Grosso do Sul': 'MS', 'Minas Gerais': 'MG',
-            'Pará': 'PA', 'Paraíba': 'PB', 'Paraná': 'PR', 'Pernambuco': 'PE', 'Piauí': 'PI',
-            'Rio de Janeiro': 'RJ', 'Rio Grande do Norte': 'RN', 'Rio Grande do Sul': 'RS',
-            'Rondônia': 'RO', 'Roraima': 'RR', 'Santa Catarina': 'SC', 'São Paulo': 'SP',
-            'Sergipe': 'SE', 'Tocantins': 'TO'
-        }
-
-        state = coordinates_data[0].get('state')
-        state_code = state_mapping.get(state)
-
-        create_new_city(city_name=city_name, latitude=lat, longitude=lon, country_code=country_code, state_code=state_code)
-
-    return lat, lon
-
+from scripts.utils.date_operations import format_date_to_utc
+from scripts.api.weather_api import extract_city_details_from_api
 
 def create_timestamp_and_directories(**context):
     execution_date_utc = context['data_interval_end']
@@ -89,39 +44,30 @@ def get_weather_data(**context):
         weather_data = []
 
         if lat is None or lon is None:
-            print('Getting latitude and longitude from API.')
-            openweather_hook = OpenWeatherHook(city_name=city_name, state_code=state_code, country_code=country_code)
+            city_details = extract_city_details_from_api(city_name=city_name, state_code=state_code, country_code=country_code)
 
-            try:
-                weather_data = openweather_hook.run()
-            except ValueError as e:
-                print(f"Error retrieving weather data: {e}")
-                continue  
-            
-            state_mapping = {
-                'Acre': 'AC', 'Alagoas': 'AL', 'Amapá': 'AP', 'Amazonas': 'AM', 'Bahia': 'BA',
-                'Ceará': 'CE', 'Distrito Federal': 'DF', 'Espírito Santo': 'ES', 'Goiás': 'GO',
-                'Maranhão': 'MA', 'Mato Grosso': 'MT', 'Mato Grosso do Sul': 'MS', 'Minas Gerais': 'MG',
-                'Pará': 'PA', 'Paraíba': 'PB', 'Paraná': 'PR', 'Pernambuco': 'PE', 'Piauí': 'PI',
-                'Rio de Janeiro': 'RJ', 'Rio Grande do Norte': 'RN', 'Rio Grande do Sul': 'RS',
-                'Rondônia': 'RO', 'Roraima': 'RR', 'Santa Catarina': 'SC', 'São Paulo': 'SP',
-                'Sergipe': 'SE', 'Tocantins': 'TO'
-            }
+            if not city_details:
+                continue
 
-            state = weather_data[0].get('state')
-            state_code = state_mapping.get(state)
+            city_name = city_details.get('city_name')
+            state_code = city_details.get('state_code')
+            country_code = city_details.get('country_code')
+            latitude = city_details.get('latitude')
+            longitude = city_details.get('longitude')
 
-            create_new_city(city_name=city_name, latitude=lat, longitude=lon, country_code=country_code, state_code=state_code)
+            create_new_city(city_name=city_name, state_code=state_code, country_code=country_code, latitude=latitude, longitude=longitude)
+
+            openweather_hook = OpenWeatherHook(latitude=latitude, longitude=longitude)
+            weather_data = openweather_hook.run()
         else:
             print('Getting latitude and longitude from Database.')
             openweather_hook = OpenWeatherHook(latitude=lat, longitude=lon)
             weather_data = openweather_hook.run()
 
-        if weather_data is None or len(weather_data) == 0:
-            continue
-
         if weather_data:
             weather_data_cities.append(weather_data)
+        else:
+            continue
 
     ti.xcom_push(key='weather_data', value=weather_data_cities)
 

@@ -1,7 +1,7 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime, timedelta
-from scripts.weather_etl import (
+from scripts.tasks.weather_tasks import (
     create_timestamp_and_directories,
     read_cities_from_local,
     get_weather_data,
@@ -11,6 +11,7 @@ from scripts.weather_etl import (
     cast_and_enrich_weather_data,
     save_transformed_weather_data
 )
+from airflow.providers.common.sql.operators.sql import SQLExecuteQueryOperator
 
 default_args = {
     'owner': 'vitorlinsbinski',
@@ -27,7 +28,13 @@ dag = DAG(
     catchup=False,
 )
 
-# Tarefa 1: Criar timestamp e diretórios
+t0 = SQLExecuteQueryOperator(
+    task_id='create_table',
+    conn_id='mysql_conn',
+    sql='./scripts/db/sql/create_tables.sql',
+    dag=dag
+)
+
 t1 = PythonOperator(
     task_id='create_timestamp_and_directories',
     python_callable=create_timestamp_and_directories,
@@ -35,7 +42,6 @@ t1 = PythonOperator(
     dag=dag
 )
 
-# Tarefa 2: Carregar as cidades
 t2 = PythonOperator(
     task_id='read_cities_from_local',
     python_callable=read_cities_from_local,
@@ -43,7 +49,6 @@ t2 = PythonOperator(
     dag=dag
 )
 
-# Tarefa 3: Obter dados climáticos
 t3 = PythonOperator(
     task_id='get_weather_data_from_api',
     python_callable=get_weather_data,
@@ -51,7 +56,6 @@ t3 = PythonOperator(
     dag=dag
 )
 
-# Tarefa 4: Salvar dados climáticos
 t4 = PythonOperator(
     task_id='save_raw_weather_data',
     python_callable=save_weather_data,
@@ -87,6 +91,8 @@ t5_4 = PythonOperator(
     dag=dag
 )
 
-# Definindo a ordem das tarefas
-t1 >> t2 >> t3 >> t4 >> t5_1 >> t5_2 >> t5_3 >> t5_4
+t0 >> t3
+t1 >> t3
+t2 >> t3
+t3 >> t4 >> t5_1 >> t5_2 >> t5_3 >> t5_4
 
