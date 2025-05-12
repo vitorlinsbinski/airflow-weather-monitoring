@@ -2,13 +2,16 @@ import os
 import json
 
 from hook.openweather_hook import OpenWeatherHook
-from scripts.db.db_operations import find_city_coordinates, create_new_city
+from scripts.db.db_operations import get_engine
+from airflow.providers.mysql.hooks.mysql import MySqlHook
 
 import pandas as pd
 import numpy as np
 
 from scripts.utils.date_operations import format_date_to_utc
 from scripts.api.weather_api import extract_city_details_from_api
+
+from scripts.utils.weather_load_dimensions import prepare_fact_weather, upsert_dim_weather_condition,upsert_dim_time,upsert_dim_city
 
 def create_timestamp_and_directories(**context):
     execution_date_utc = context['data_interval_end']
@@ -40,31 +43,28 @@ def get_weather_data(**context):
         state_code = city.get('state_code')
         country_code = city.get('country_code')
 
-        lat, lon = find_city_coordinates(city_name)
         weather_data = []
 
-        if lat is None or lon is None:
-            city_details = extract_city_details_from_api(city_name=city_name, state_code=state_code, country_code=country_code)
+        city_details = extract_city_details_from_api(city_name=city_name, state_code=state_code, country_code=country_code)
 
-            if not city_details:
-                continue
+        if not city_details:
+            continue
 
-            city_name = city_details.get('city_name')
-            state_code = city_details.get('state_code')
-            country_code = city_details.get('country_code')
-            latitude = city_details.get('latitude')
-            longitude = city_details.get('longitude')
+        city_name = city_details.get('city_name')
+        state_code = city_details.get('state_code')
+        country_code = city_details.get('country_code')
+        latitude = city_details.get('latitude')
+        longitude = city_details.get('longitude')
 
-            create_new_city(city_name=city_name, state_code=state_code, country_code=country_code, latitude=latitude, longitude=longitude)
-
-            openweather_hook = OpenWeatherHook(latitude=latitude, longitude=longitude)
-            weather_data = openweather_hook.run()
-        else:
-            print('Getting latitude and longitude from Database.')
-            openweather_hook = OpenWeatherHook(latitude=lat, longitude=lon)
-            weather_data = openweather_hook.run()
+        openweather_hook = OpenWeatherHook(latitude=latitude, longitude=longitude)
+        weather_data = openweather_hook.run()
 
         if weather_data:
+            weather_data.update({
+                'name': city_name,
+                'state_code': state_code,
+                'country_code': country_code,
+            })
             weather_data_cities.append(weather_data)
         else:
             continue
@@ -105,7 +105,7 @@ def normalize_weather_data(**context):
         weather_data,
         record_path=['weather'],
         meta=[
-            'base', 'visibility', 'dt', 'timezone', 'name', 'cod',
+            'base', 'visibility', 'dt', 'timezone', 'name', 'cod', 'state_code', 'country_code',
             ['coord', 'lon'], ['coord', 'lat'],
             ['main', 'temp'], ['main', 'feels_like'], ['main', 'temp_min'], ['main', 'temp_max'],
             ['main', 'pressure'], ['main', 'humidity'], ['main', 'sea_level'],
@@ -116,7 +116,7 @@ def normalize_weather_data(**context):
         sep='_'
     )
 
-    weather_df.drop(columns=['id', 'main', 'base', 'visibility'], inplace=True)
+    weather_df.drop(columns=['base', 'visibility'], inplace=True)
 
     context['ti'].xcom_push(key='weather_df', value=weather_df.to_json())
 
@@ -124,6 +124,7 @@ def cast_and_enrich_weather_data(**context):
     weather_df = pd.read_json(context['ti'].xcom_pull(key='weather_df', task_ids='normalize_weather_data'))
 
     weather_df = weather_df.astype({
+        'id': int,
         'timezone': int,
         'cod': int,
         'coord_lon': np.float64,
@@ -138,6 +139,10 @@ def cast_and_enrich_weather_data(**context):
         'clouds_all': int,
         'sys_sunrise': int,
         'sys_sunset': int
+    })
+
+    weather_df = weather_df.rename(columns={
+        'id': 'weather_id'
     })
 
     weather_df['datetime_utc'] = pd.to_datetime(weather_df['dt'], unit='s', utc=True)
@@ -178,7 +183,52 @@ def save_transformed_weather_data(**context):
     full_path = os.path.join(base_path_transformed, timestamp)
     os.makedirs(full_path, exist_ok=True)
 
-    file_name = f'weather_transformed_{timestamp}.csv'
+    file_name = f'weather_transformed_{timestamp}.parquet'
     outfile_path = os.path.join(full_path, file_name)
 
-    weather_df.to_csv(outfile_path, index=False)
+    weather_df.to_parquet(outfile_path, index=False)
+
+def prepare_for_dw(**context):
+    timestamp = context['ti'].xcom_pull(key='timestamp', task_ids='read_raw_weather_data')
+    base_path = './data/transformed'
+    file_name = f'weather_transformed_{timestamp}.parquet'
+    target_path = os.path.join(base_path, timestamp, file_name)
+    df = pd.read_parquet(target_path)
+
+    engine = get_engine()
+
+    df_city_ids = upsert_dim_city(df, engine)
+    df = df.merge(df_city_ids, how='left', right_on=['latitude', 'longitude'], left_on=['coord_lat', 'coord_lon'])
+    df = df.rename(columns={'id': 'city_id'})
+
+    df_condition_ids = upsert_dim_weather_condition(df, engine)
+    df = df.merge(df_condition_ids, how='left', left_on='weather_id', right_on='condition_code')
+    df = df.rename(columns={'id': 'weather_condition_id'})
+
+    df_time_ids = upsert_dim_time(df, engine)
+    df = df.merge(df_time_ids, how='left', left_on='datetime_local', right_on='timestamp')
+    df = df.rename(columns={'id': 'time_id'})
+
+    df_fact_weather = prepare_fact_weather(df)
+
+    base_path_curated = './data/curated'
+    full_path = os.path.join(base_path_curated, timestamp)
+    os.makedirs(full_path, exist_ok=True)
+
+    file_name = f'weather_curated_{timestamp}.parquet'
+    outfile_path = os.path.join(full_path, file_name)
+
+    df_fact_weather.to_parquet(outfile_path, index=False)
+
+def load_to_dw(**context):
+    timestamp = context['ti'].xcom_pull(key='timestamp', task_ids='read_raw_weather_data')
+    base_path_curated = './data/curated'
+    file_name = f'weather_curated_{timestamp}.parquet'
+    infile_path = os.path.join(base_path_curated, timestamp, file_name)
+
+    df = pd.read_parquet(infile_path)
+    engine = get_engine()
+    df.to_sql('fact_weather', con=engine, if_exists='append', index=False)
+
+
+

@@ -2,6 +2,10 @@ from airflow.providers.mysql.hooks.mysql import MySqlHook
 
 CITY_TABLE_NAME = 'dim_city'
 
+def get_engine():
+    mysql_hook = MySqlHook(mysql_conn_id='mysql_conn')
+    return mysql_hook.get_sqlalchemy_engine()
+
 def fetch_cities():
     hook = MySqlHook(mysql_conn_id='mysql_conn')
     sql = "SELECT name, state_code, country_code, latitude, longitude FROM dim_city"

@@ -9,7 +9,9 @@ from scripts.tasks.weather_tasks import (
     read_raw_weather_data,
     normalize_weather_data,
     cast_and_enrich_weather_data,
-    save_transformed_weather_data
+    save_transformed_weather_data,
+    prepare_for_dw,
+    load_to_dw
 )
 from airflow.providers.common.sql.operators.sql import SQLExecuteQueryOperator
 
@@ -28,71 +30,86 @@ dag = DAG(
     catchup=False,
 )
 
-t0 = SQLExecuteQueryOperator(
+prepare_database = SQLExecuteQueryOperator(
     task_id='create_table',
     conn_id='mysql_conn',
     sql='./scripts/db/sql/create_tables.sql',
     dag=dag
 )
 
-t1 = PythonOperator(
+create_directories = PythonOperator(
     task_id='create_timestamp_and_directories',
     python_callable=create_timestamp_and_directories,
     provide_context=True,
     dag=dag
 )
 
-t2 = PythonOperator(
+get_cities_to_fetch = PythonOperator(
     task_id='read_cities_from_local',
     python_callable=read_cities_from_local,
     provide_context=True,
     dag=dag
 )
 
-t3 = PythonOperator(
+fetch_data_from_api = PythonOperator(
     task_id='get_weather_data_from_api',
     python_callable=get_weather_data,
     provide_context=True,
     dag=dag
 )
 
-t4 = PythonOperator(
+save_raw_data = PythonOperator(
     task_id='save_raw_weather_data',
     python_callable=save_weather_data,
     provide_context=True,
     dag=dag
 )
 
-t5_1 = PythonOperator(
+read_raw_data = PythonOperator(
     task_id='read_raw_weather_data',
     python_callable=read_raw_weather_data,
     provide_context=True,
     dag=dag
 )
 
-t5_2 = PythonOperator(
+normalize_data = PythonOperator(
     task_id='normalize_weather_data',
     python_callable=normalize_weather_data,
     provide_context=True,
     dag=dag
 )
 
-t5_3 = PythonOperator(
+transform_raw_data = PythonOperator(
     task_id='cast_and_enrich_weather_data',
     python_callable=cast_and_enrich_weather_data,
     provide_context=True,
     dag=dag
 )
 
-t5_4 = PythonOperator(
+save_transformed_data = PythonOperator(
     task_id='save_transformed_weather_data',
     python_callable=save_transformed_weather_data,
     provide_context=True,
     dag=dag
 )
 
-t0 >> t3
-t1 >> t3
-t2 >> t3
-t3 >> t4 >> t5_1 >> t5_2 >> t5_3 >> t5_4
+prepare_data_for_dw = PythonOperator(
+    task_id='prepare_for_dw',
+    python_callable=prepare_for_dw,
+    provide_context=True,
+    dag=dag
+)
+
+load_data_to_dw = PythonOperator(
+    task_id='load_to_dw',
+    python_callable=load_to_dw,
+    provide_context=True,
+    dag=dag
+)
+
+prepare_database >> fetch_data_from_api
+create_directories >> fetch_data_from_api
+get_cities_to_fetch >> fetch_data_from_api
+
+fetch_data_from_api >> save_raw_data >> read_raw_data >> normalize_data >> transform_raw_data >> save_transformed_data >> prepare_data_for_dw >> load_data_to_dw
 
