@@ -263,6 +263,17 @@ services:
       - -c
       - airflow
 
+  mysql:
+    image: mysql:8.0
+    environment:
+      MYSQL_DATABASE: airflow_db
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: airflow
+      MYSQL_PASSWORD: airflowpass
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
   # You can enable flower by adding "--profile flower" option e.g. docker-compose --profile flower up
   # or by explicitly targeted on the command line e.g. docker-compose up flower.
   # See: https://docs.docker.com/compose/profiles/
@@ -287,4 +298,5 @@ services:
 
 volumes:
   postgres-db-volume:
+  mysql_data:
   
