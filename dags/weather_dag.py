@@ -3,7 +3,6 @@ from airflow.operators.python import PythonOperator
 from datetime import datetime, timedelta
 from scripts.tasks.weather_tasks import (
     create_timestamp_and_directories,
-    read_cities_from_local,
     get_weather_data,
     save_weather_data,
     read_raw_weather_data,
@@ -40,13 +39,6 @@ prepare_database = SQLExecuteQueryOperator(
 create_directories = PythonOperator(
     task_id='create_timestamp_and_directories',
     python_callable=create_timestamp_and_directories,
-    provide_context=True,
-    dag=dag
-)
-
-get_cities_to_fetch = PythonOperator(
-    task_id='read_cities_from_local',
-    python_callable=read_cities_from_local,
     provide_context=True,
     dag=dag
 )
@@ -109,7 +101,5 @@ load_data_to_dw = PythonOperator(
 
 prepare_database >> fetch_data_from_api
 create_directories >> fetch_data_from_api
-get_cities_to_fetch >> fetch_data_from_api
-
 fetch_data_from_api >> save_raw_data >> read_raw_data >> normalize_data >> transform_raw_data >> save_transformed_data >> prepare_data_for_dw >> load_data_to_dw
 

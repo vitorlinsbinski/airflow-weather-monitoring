@@ -3,15 +3,16 @@ import json
 
 from hook.openweather_hook import OpenWeatherHook
 from scripts.db.db_operations import get_engine
-from airflow.providers.mysql.hooks.mysql import MySqlHook
 
 import pandas as pd
 import numpy as np
 
 from scripts.utils.date_operations import format_date_to_utc
 from scripts.api.weather_api import extract_city_details_from_api
-
+from scripts.utils.file_utils import read_json_from_path
 from scripts.utils.weather_load_dimensions import prepare_fact_weather, upsert_dim_weather_condition,upsert_dim_time,upsert_dim_city
+
+from concurrent.futures import ThreadPoolExecutor
 
 def create_timestamp_and_directories(**context):
     execution_date_utc = context['data_interval_end']
@@ -25,52 +26,44 @@ def create_timestamp_and_directories(**context):
     context['ti'].xcom_push(key='timestamp', value=timestamp)
     context['ti'].xcom_push(key='full_path', value=full_path)
 
-
-def read_cities_from_local(**context):
-    file_path = './data/raw/region/cities.json'
-    with open(file_path, 'r') as file:
-        cities = json.load(file)
-    context['ti'].xcom_push(key='cities', value=cities)
-
-
 def get_weather_data(**context):
     ti = context['ti']
-    cities = ti.xcom_pull(key='cities', task_ids='read_cities_from_local')
-    weather_data_cities = []
-
-    for city in cities:
+    cities = read_json_from_path('./data/raw/region/cities.json')
+    
+    def process_city(city):
         city_name = city.get('name')
         state_code = city.get('state_code')
         country_code = city.get('country_code')
 
-        weather_data = []
-
-        city_details = extract_city_details_from_api(city_name=city_name, state_code=state_code, country_code=country_code)
-
+        city_details = extract_city_details_from_api(
+            city_name=city_name,
+            state_code=state_code,
+            country_code=country_code
+        )
         if not city_details:
-            continue
+            return None
 
-        city_name = city_details.get('city_name')
-        state_code = city_details.get('state_code')
-        country_code = city_details.get('country_code')
-        latitude = city_details.get('latitude')
-        longitude = city_details.get('longitude')
-
-        openweather_hook = OpenWeatherHook(latitude=latitude, longitude=longitude)
+        openweather_hook = OpenWeatherHook(
+            latitude=city_details['latitude'],
+            longitude=city_details['longitude']
+        )
         weather_data = openweather_hook.run()
 
         if weather_data:
             weather_data.update({
-                'name': city_name,
-                'state_code': state_code,
-                'country_code': country_code,
+                'name': city_details['city_name'],
+                'state_code': city_details['state_code'],
+                'country_code': city_details['country_code'],
             })
-            weather_data_cities.append(weather_data)
-        else:
-            continue
+            return weather_data
+        return None
+
+    with ThreadPoolExecutor(max_workers=25) as executor:
+        results = list(executor.map(process_city, cities))
+
+    weather_data_cities = [r for r in results if r]
 
     ti.xcom_push(key='weather_data', value=weather_data_cities)
-
 
 def save_weather_data(**context):
     ti = context['ti']
@@ -198,7 +191,7 @@ def prepare_for_dw(**context):
     engine = get_engine()
 
     df_city_ids = upsert_dim_city(df, engine)
-    df = df.merge(df_city_ids, how='left', right_on=['latitude', 'longitude'], left_on=['coord_lat', 'coord_lon'])
+    df = df.merge(df_city_ids, how='left', on=['name', 'state_code'])
     df = df.rename(columns={'id': 'city_id'})
 
     df_condition_ids = upsert_dim_weather_condition(df, engine)
@@ -227,6 +220,7 @@ def load_to_dw(**context):
     infile_path = os.path.join(base_path_curated, timestamp, file_name)
 
     df = pd.read_parquet(infile_path)
+
     engine = get_engine()
     df.to_sql('fact_weather', con=engine, if_exists='append', index=False)
 

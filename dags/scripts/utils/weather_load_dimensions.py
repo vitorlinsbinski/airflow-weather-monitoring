@@ -4,14 +4,14 @@ def upsert_dim_city(df, engine):
     df_city = df[['name', 'coord_lat', 'coord_lon', 'state_code', 'country_code']].drop_duplicates(['coord_lat', 'coord_lon'])
     df_city = df_city.rename(columns={'coord_lat': 'latitude', 'coord_lon': 'longitude'})
 
-    existing = pd.read_sql("SELECT id, latitude, longitude FROM dim_city", con=engine)
-    new = df_city.merge(existing, on=['latitude', 'longitude'], how='left', indicator=True)
+    existing = pd.read_sql("SELECT id, name, state_code FROM dim_city", con=engine)
+    new = df_city.merge(existing, on=['name', 'state_code'], how='left', indicator=True)
     new = new[new['_merge'] == 'left_only'].drop(columns=['_merge'])
 
     if not new.empty:
         new.to_sql('dim_city', con=engine, if_exists='append', index=False)
 
-    return pd.read_sql("SELECT id, latitude, longitude FROM dim_city", con=engine)
+    return pd.read_sql("SELECT id, name, state_code FROM dim_city", con=engine)
 
 def upsert_dim_weather_condition(df, engine):
     df_condition = df[['weather_id', 'main', 'description', 'icon']].drop_duplicates(['weather_id'])
